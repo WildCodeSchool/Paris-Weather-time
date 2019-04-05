@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 import './components/WeatherDiv'
 import WeatherDiv from './components/WeatherDiv';
+import Footer from './components/Footer';
+
+
 
 class App extends Component {
   state = {
@@ -27,12 +30,16 @@ class App extends Component {
         return (<div>loading</div>)
     } else {
         return (
-            <div>
+            <div className="App">
                 <WeatherDiv weatherData={this.state.weatherData}/>
+                 <Footer />
             </div>
         )
     }
 
+    return (
+
+    );
   }
 }
 

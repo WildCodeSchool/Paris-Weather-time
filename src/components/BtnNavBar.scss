@@ -1,0 +1,53 @@
+$green: #2ecc71;
+$black: #000000;
+$yellow: #f1c40f;
+$blue: #0ba3c9;
+$white: #ffffff;
+
+.btn-1, .btn-2, .btn-3 {
+	appearance: none;
+  background-color: transparent;
+  border: 2px solid $black;
+  border-radius: 0.6em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+	line-height: 0;
+  margin: 2px;
+  margin-top: 10px;
+	padding: 0em 0.3em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+  font-size: 0.6rem;
+  
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+  
+.btn-1, .btn-2, .btn-3 {
+	color: #fff;
+	box-shadow: 0 0 40px 40px $black inset, 0 0 0 0 $black;
+	transition: all 150ms ease-in-out;
+	border-color: $black;
+    
+	&:hover {
+	box-shadow: 0 0 4px 0 $blue inset, 0 0 4px 3px $blue;
+  }
+}
+
+.icon{
+  width: 6vw;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 7.5vh;
+  display: flex;
+  justify-content: flex-end; 
+  font-size: calc(10px + 4vmin);
+  color: white;
+}

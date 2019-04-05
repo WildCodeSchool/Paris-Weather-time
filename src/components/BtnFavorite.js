@@ -9,4 +9,4 @@ const BtnFavorite = () => {
     )
 }
 
-export default BtnFavorite
+export default BtnFavorite;

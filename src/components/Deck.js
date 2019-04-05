@@ -1,9 +1,9 @@
+/*
 import React, { useState } from "react";
 import { useSprings } from "react-spring/hooks";
 import { useGesture } from "react-with-gesture";
 import Card from "./Card";
-
-import "../styles/Deck.css";
+import "./Deck.css";
 
 const cards = [1, 2, 3, 4];
 
@@ -15,7 +15,7 @@ const objs = [
     ],
     name: "Paris",
     age: 18,
-    distance: "1 mile away",
+    distance: "",
     text: "The C and the L are silent."
   },
   {

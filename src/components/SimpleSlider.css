@@ -1,0 +1,19 @@
+.slick-track {
+    display: flex;
+    width: 100%;
+   
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-arrow {
+    display: none !important;
+}
+
+.slide {
+
+
+}
+

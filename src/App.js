@@ -20,6 +20,7 @@ class App extends Component {
         lon: ''
     }
 
+
     //fonction qui permet d'obtenir la localisation
     getLocation = () => {
         //si l'utilisateur accepte d'être géolocalisé

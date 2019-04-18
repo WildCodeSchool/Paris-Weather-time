@@ -1,7 +1,6 @@
 .slick-track {
     display: flex;
-    width: 100%;
-   
+    ;
 }
 
 .slick-dots {
@@ -12,8 +11,8 @@
     display: none !important;
 }
 
-.slide {
-
-
+.slick-list {
+    width:100%;
+    /* permet de faire apparaitre en scrollant tous les elements qui depassent de l'ecran*/
+    overflow: scroll;
 }
-

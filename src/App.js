@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
-import './components/WeatherDiv'
 import WeatherDiv from './components/WeatherDiv';
-import Footer from './components/Footer';
+
 import SimpleSlider from './components/SimpleSlider'
 import BtnFilter from "./components/BtnFilter"
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
+import './App.css';
+import './components/WeatherDiv'
 import './components/BtnNavBar.scss';
-
 
 class App extends Component {
     state = {
@@ -43,10 +42,11 @@ class App extends Component {
                     </header>
                     <WeatherDiv weatherData={this.state.weatherData} />
 
-                   
+               
                     <SimpleSlider/>
+             
                     
-                    <Footer />
+                   
                 </div>
             )
         }

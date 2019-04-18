@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import WeatherDiv from './components/WeatherDiv';
-import Footer from './components/Footer';
-import ActivityCards from './components/ActivityCards';
-import ModalFilter from "./components/ModalFilter"
+import ActivityCards from './components/ActivityCards'
+import Api_asma from './components/Api_asma';
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
-import Api_asma from './components/Api_asma';
+import Footer from './components/Footer';
+import Logo from "./components/Logo"
+import ModalFilter from "./components/ModalFilter"
+import WeatherDiv from './components/WeatherDiv';
 import './App.css';
-import './components/WeatherDiv'
 import './components/BtnNavBar.scss';
+import './components/Logo.css';
+import './components/WeatherDiv'
 
 
 
 class App extends Component {
+ 
     state = {
         weatherData: [],
         loading: true,
@@ -60,7 +63,7 @@ class App extends Component {
             return (
                 <div className="App">
                     <header className="App-header">
-                       
+                    <div className="l"><Logo /></div> 
                         <BtnLogin />
                         <BtnFavorite />
                     </header>

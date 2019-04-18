@@ -6,10 +6,18 @@ import ModalFilter from "./components/ModalFilter"
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
 import './App.css';
-import './components/WeatherDiv'
 import './components/BtnNavBar.scss';
+import Deck from './components/Deck'
+
+
+
+
+
+
+
 
 class App extends Component {
+
     state = {
         weatherData: [],
         loading: true,
@@ -61,6 +69,7 @@ class App extends Component {
                     </header>
                     <ModalFilter />
                     <WeatherDiv weatherData={this.state.weatherData} />
+                    <Deck/>
 
                     <div className="cardactivity">
                         <ActivityCards

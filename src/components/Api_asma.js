@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "./Form";
 import Weather from "./Weather";
+import "./Form.css"
 
 
 
@@ -41,7 +42,7 @@ class Api_asma extends React.Component {
     return (
       <div>
      
-        <Form getWeather={this.getWeather} />                        
+        <div><Form getWeather={this.getWeather} />  </div>                      
         <Weather
           temperature={this.state.temperature} 
           humidity={this.state.humidity}

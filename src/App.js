@@ -39,6 +39,7 @@ class App extends Component {
        
         }
     }
+   
     // fonction qui recherche l'API météo
     getWeather = () => {
 
@@ -69,7 +70,7 @@ class App extends Component {
                     </header>
                    
                     <ModalFilter /> 
-                    <Api_asma />
+                   <div className="Api_asma"><Api_asma /></div> 
                     <WeatherDiv weatherData={this.state.weatherData} />
                     <div className="cardactivity">
                         <ActivityCards

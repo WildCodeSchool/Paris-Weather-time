@@ -6,6 +6,7 @@ import Logo from "./components/Logo"
 import ModalFilter from "./components/ModalFilter"
 import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
+import Deck from "./components/Deck";
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
@@ -23,6 +24,7 @@ class App extends Component {
           <BtnLogin />
           <BtnFavorite />
         </header>
+        < Deck />
         <ModalFilter />
         <div className="WeatherAPI"><WeatherAPI /></div>
         <SimpleSlider/>

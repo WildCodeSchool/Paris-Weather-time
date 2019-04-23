@@ -1,5 +1,21 @@
+.App-header{
+    position: relative; 
+ 
+}   
+.l{
+
+    position: absolute;
+    left: 0vw;
+    top: -10vh;
+} 
+
 .App
 {
     text-align: center;
     
+}
+.WeatherAPI{
+    padding-top: 80px;
+    padding-left: 20%;
+  
 }

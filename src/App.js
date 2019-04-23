@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import ActivityCards from './components/ActivityCards'
 import Api_asma from './components/Api_asma';
+import WeatherDiv from './components/WeatherDiv';
+import ModalFilter from './components/ModalFilter'
+import SimpleSlider from './components/SimpleSlider'
+import Footer from './components/Footer'
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
 import Footer from './components/Footer';
@@ -88,6 +92,8 @@ class App extends Component {
                         />
                     </div>  
                      
+                    <SimpleSlider/>
+
                     <Footer />
                    
                
@@ -95,7 +101,6 @@ class App extends Component {
             )
         }
     }
-
 }
 
 export default App;

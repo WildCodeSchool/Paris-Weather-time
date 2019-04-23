@@ -5,7 +5,7 @@ import "./Form.css"
 
 
 
-class Api_asma extends React.Component {
+class WeatherAPI extends React.Component {
   state = {
     city: "",
     lat: '',
@@ -71,5 +71,5 @@ class Api_asma extends React.Component {
   }
 };
 
-export default Api_asma
+export default WeatherAPI
   ;

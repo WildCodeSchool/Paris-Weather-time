@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ActivityCards from './components/ActivityCards'
-import ApiAsma from './components/ApiAsma';
+import WeatherAPI from './components/WeatherAPI';
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
 import Footer from './components/Footer';
@@ -25,7 +25,7 @@ class App extends Component {
           <BtnFavorite />
         </header>
         <ModalFilter />
-        <div className="Api_asma"><ApiAsma /></div>
+        <div className="WeatherAPI"><WeatherAPI /></div>
         <div className="cardactivity">
           <ActivityCards
             photo="https://www.auteur-roman-nouvelles.com/wp-content/uploads/2015/02/a1933092357_10-300x300.jpg"

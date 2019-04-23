@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import WeatherDiv from './components/WeatherDiv';
-import Footer from './components/Footer';
-import ActivityCards from './components/ActivityCards';
-import ModalFilter from "./components/ModalFilter"
+import ModalFilter from './components/ModalFilter'
+import SimpleSlider from './components/SimpleSlider'
+import Footer from './components/Footer'
 import BtnLogin from "./components/BtnLogin"
 import BtnFavorite from "./components/BtnFavorite"
 import './App.css';
@@ -61,26 +61,13 @@ class App extends Component {
                     </header>
                     <ModalFilter />
                     <WeatherDiv weatherData={this.state.weatherData} />
+                    <SimpleSlider/>
 
-                    <div className="cardactivity">
-                        <ActivityCards
-                            photo="https://www.auteur-roman-nouvelles.com/wp-content/uploads/2015/02/a1933092357_10-300x300.jpg"
-                            alt="clochard"
-                            activity="Crache sur un clochard"
-                            price="Gratuit" />
-
-                        <ActivityCards
-                            photo="https://fever.imgix.net/plan/photo/a81f63a4-3f29-11e9-9020-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220"
-                            alt="clubbing"
-                            activity="Soirée clubbing"
-                            price="15€90" />
-                    </div>
                     <Footer />
                 </div>
             )
         }
     }
-
 }
 
 export default App;

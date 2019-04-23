@@ -7,14 +7,14 @@
     position: absolute;
     left: 0vw;
     top: -10vh;
-}
-.cardactivity
+} 
+
 .App
 {
     text-align: center;
     
 }
-.Api_asma{
+.WeatherAPI{
     padding-top: 80px;
     padding-left: 20%;
   

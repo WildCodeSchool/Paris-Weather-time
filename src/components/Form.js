@@ -2,10 +2,6 @@ import React from "react";
 import "./Form.css"
 
 const Form = props => (
-	// <form onSubmit={props.getWeather}>
-	// 	<input type="text" name="city" placeholder="Search City..."/>
-	// 	<button>Get Weather</button>
-	// </form>
 <div  classNAme="A" id="cover">
   <form onSubmit={props.getWeather} >
     <div className="tb">

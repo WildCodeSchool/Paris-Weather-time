@@ -10,8 +10,6 @@ import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
 
-
-
 class App extends Component {
   state = {
   }

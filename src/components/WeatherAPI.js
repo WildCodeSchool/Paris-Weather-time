@@ -21,17 +21,12 @@ class WeatherAPI extends React.Component {
         //permet de remplir le tableau weatherData dans le state et de desactiver loading - voir le if/else au début du render
         .then(res => this.setState({ weatherData: res, loading: false }))
     } else {
+      // s'active quand le bouton de Form.js est activé, celui-ci appelant la fonction getWeather et le loading étant false après le premier chargement de la page
       e.preventDefault();
       const city = e.target.city.value;
       fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
-        .then(response => response.json())
-        .then(data => {
-          if (data.name) {
-            this.setState({
-              weatherData: data
-            });
-          } 
-        })
+        .then(res => res.json())
+        .then(res => this.setState({ weatherData: res}))
     }
   }
   //fonction qui permet d'obtenir la localisation

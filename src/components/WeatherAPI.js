@@ -7,7 +7,7 @@ import "./Form.css"
 
 class WeatherAPI extends React.Component {
   state = {
-    city: "",
+    city: '',
     lat: '',
     loading: true,
     lon: '',
@@ -16,15 +16,15 @@ class WeatherAPI extends React.Component {
   
   getWeather = (e) => {
     if (this.state.loading) {
-      fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
+      fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${this.state.lat}&lon=${this.state.lon}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
         .then(res => res.json())
         //permet de remplir le tableau weatherData dans le state et de desactiver loading - voir le if/else au début du render
-        .then(res => this.setState({ weatherData: res, loading: false }))
+        .then(res => this.setState({ weatherData: res, loading: false, city: res.city.name}))
     } else {
       // s'active quand le bouton de Form.js est activé, celui-ci appelant la fonction getWeather et le loading étant false après le premier chargement de la page
       e.preventDefault();
       const city = e.target.city.value;
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
+      fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
         .then(res => res.json())
         .then(res => this.setState({ weatherData: res}))
     }
@@ -50,6 +50,7 @@ class WeatherAPI extends React.Component {
   }
 
   render() {
+    console.log(this.state.city)
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)
@@ -59,7 +60,15 @@ class WeatherAPI extends React.Component {
           <div>
             <Form getWeather={this.getWeather} />
           </div>
-          <WeatherDiv weatherData={this.state.weatherData} />
+          <div>
+          {this.state.weatherData.list
+          .filter(data => data.dt_txt.includes("12:00:00"))
+          .map((data,index) => (
+            <WeatherDiv {...data} key={index}/>
+
+        ))}
+
+          </div>
         </div>
       );
     }

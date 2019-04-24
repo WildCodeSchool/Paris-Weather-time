@@ -15,4 +15,5 @@
     width:100%;
     /* permet de faire apparaitre en scrollant tous les elements qui depassent de l'ecran*/
     overflow: scroll;
+    touch-action: none;
 }

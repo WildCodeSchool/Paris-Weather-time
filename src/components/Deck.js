@@ -41,9 +41,9 @@ function Deck() {
 
 
 
-// /* can recognize gestures made by touch, mouse and pointerEvents */
+/* can recognize gestures made by touch, mouse and pointerEvents */
 
-    const bind = useGesture(
+  const bind = useGesture(
     ({
       args: [index],
       down,

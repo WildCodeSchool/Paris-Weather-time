@@ -12,7 +12,7 @@ state = {
 }
 
 getWeather = () => {
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=Perigueux&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83')
+    fetch('http://api.openweathermap.org/data/2.5/weather?q=Paris&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83')
         .then(res => res.json())
         .then(res => this.setState({ weatherData: res, lo: false }))
 }
@@ -45,7 +45,7 @@ componentDidMount() {
             transform: interpolate([rot, scale], trans)
           }}
         >
-          <div className="card">
+          <div className="weatherCard">
            
             <div><WeatherDiv weatherData={this.state.weatherData} /></div>
 

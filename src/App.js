@@ -5,8 +5,7 @@ import Footer from './components/Footer';
 import Logo from "./components/Logo"
 import ModalFilter from "./components/ModalFilter"
 import SimpleSlider from "./components/SimpleSlider"
-import WeatherAPI from './components/WeatherAPI';
-import Deck from "./components/Deck";
+import Deck from './components/Deck'
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
@@ -19,14 +18,22 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <header className="App-header">
           <div className="l"><Logo /></div>
           <BtnLogin />
           <BtnFavorite />
+          <ModalFilter />
         </header>
-        < Deck />
-        <ModalFilter />
-        <div className="WeatherAPI"><WeatherAPI /></div>
+
+        <body className="body">         
+        
+       
+       
+        <Deck/>
+        
+        </body>
+
         <SimpleSlider/>
         <Footer />
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import './ActivityCards.css'
 
-const ActivityCards = (props) =>
+const ActivityCards = (activity) =>
 (
             <div className='card'>
-                <img src= {props.photo} alt= {props.alt}/>
-                <h2> {props.activity} </h2>
-                <p> {props.price} </p>
+                <img src= {activity.image} alt= {activity.alt}/>
+                <h2> {activity.name} </h2>
+                <p> {activity.price} </p>
             </div>
         )
 export default ActivityCards

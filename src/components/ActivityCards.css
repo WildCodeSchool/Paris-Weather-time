@@ -1,13 +1,20 @@
-.card {
+.card
+{
     position: relative;
 }
 
-.card img {
+
+
+.card img
+{
     width: 45vw;
-    height: 22vh;   
+
+    height: 22vh;
+    
 }
 
-.card h2 {
+.card h2
+{
    z-index: 2;
    left: 1vw;
    top:18vh;
@@ -17,7 +24,8 @@
    color:aliceblue;
 }
 
-.card p {
+.card p 
+{
     position: absolute;
     left: 31vw;
     top: -2vh;

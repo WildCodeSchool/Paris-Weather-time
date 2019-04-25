@@ -1,7 +1,4 @@
-.Footer-container{
-   background-color:#213D49;
-   height: 35vh;
-}
+
 .Footer-container-2{
    background-color:#182D36;
    height: 10vh;
@@ -9,7 +6,12 @@
 }
 .Copyright-bloc {
    color:rgb(77, 101, 112);
+   position : relative;
+   left:30%;
+   top:15%;
+   font-size:22px;
 }
+
 /*icon social networks*/
 .Social-networks img{
    padding:15px;
@@ -18,14 +20,9 @@
 /*Footer Responsive*/
 @media (max-width : 768px){
    .Footer-container-2{
-    margin-top:-18px;
     display:flex;
-    flex-direction: column-reverse;
     height:15vh;
    
-   }
-   .Social-networks {
-      margin-bottom:-10px;
    }
 }
 

@@ -64,7 +64,7 @@ class WeatherAPI extends React.Component {
           {this.state.weatherData.list
           .filter(data => data.dt_txt.includes("12:00:00"))
           .map((data,index) => (
-            <WeatherDiv {...data} city={this.state.city} key={index}/>
+            <WeatherDiv {...data} city={this.state.city} index={index} key={index}/>
 
         ))}
 

@@ -7,14 +7,15 @@
     position: absolute;
     left: 0vw;
     top: -10vh;
-    
-.cardactivity
-{
-    display: flex;
-    justify-content: space-around;
-}
+} 
 
-.cardactivity ActivityCards
+.App
 {
+    text-align: center;
+    
+}
+.WeatherAPI{
+    padding-top: 80px;
+    padding-left: 20%;
   
 }

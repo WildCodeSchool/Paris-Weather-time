@@ -1,0 +1,59 @@
+$black: #000000;
+$blue: #0ba3c9;
+$white: #ffffff;
+
+//-- Button NavBar Effect With Effect --//
+.btn-filter, .btn-2, .btn-3 {
+	appearance: none;
+  background-color: transparent;
+  border: 2px solid $black;
+  border-radius: 3em;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  margin: 10px;
+  margin-top: 6px;
+	padding: 0.1em 0.1em;
+	font-weight: 900;
+  font-size: 0.8rem;
+  
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+}
+
+//-- Button Border Color --//
+.btn-filter, .btn-2, .btn-3 {
+	color: #fff;
+	box-shadow: 0 0 40px 40px $black inset, 0 0 0 0 $black;
+	transition: all 150ms ease-in-out;
+	border-color: $black;
+    
+	&:hover {
+	box-shadow: 0 0 4px 0 $blue inset, 0 0 4px 3px $blue;
+  }
+}
+
+//-- Size Icon --//
+.icon {
+  width: 5vw;
+}
+
+//-- Position Button Filter --//
+.btn-filter {
+  position: absolute;
+  top: 0;
+  left: 64vw;
+}
+
+/*-- Container NavBar --*/
+.App-header {
+  background-color: black;
+  min-height: 5.5vh;
+  display: flex;
+  justify-content: flex-end; 
+  color: white;
+}
+

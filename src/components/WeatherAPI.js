@@ -26,7 +26,7 @@ class WeatherAPI extends React.Component {
       const city = e.target.city.value;
       fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
         .then(res => res.json())
-        .then(res => this.setState({ weatherData: res}))
+        .then(res => this.setState({ weatherData: res, city: res.city.name}))
     }
   }
   //fonction qui permet d'obtenir la localisation
@@ -61,10 +61,11 @@ class WeatherAPI extends React.Component {
             <Form getWeather={this.getWeather} />
           </div>
           <div>
+    {/*le filter map permet de ne sélectionner que une prévision par jour dans le tableau d'objets list contenu dans l'objet weatherData. Autrement list contient des prévisions toutes les trois heures. */}
           {this.state.weatherData.list
           .filter(data => data.dt_txt.includes("12:00:00"))
           .map((data,index) => (
-            <WeatherDiv {...data} key={index}/>
+            <WeatherDiv {...data} city={this.state.city} key={index}/>
 
         ))}
 

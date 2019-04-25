@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import profil from "../images/profil.png"
+import favorites from "../images/favorites.png"
 import EffectModalFilter from './EffectModalFilter';
 
-class BtnLogin extends Component {
+class NavBarButton extends Component {
+
 
     state = {
         isShowing: false
@@ -25,16 +26,16 @@ class BtnLogin extends Component {
     render() {
         return (
             <div className="btn-NavBar">
-                <button className="btn-3" onClick={this.state.isShowing ? this.closeModalHandler : this.openModalHandler}><img src={profil} className="icon" alt="logo" /></button>
+                <button className="btn-3" onClick={this.state.isShowing ? this.closeModalHandler : this.openModalHandler}><img src={favorites} className="icon" alt="logo" /></button>
                 <EffectModalFilter
                     className="modal"
                     show={this.state.isShowing}
                     close={this.closeModalHandler}>
-                    Maybe aircrafts fly very high because they don't want to be seen in plane sight?
+                    Maybe aircrafts fly very high because they don't want to be seen in plane sight ?
                 </EffectModalFilter>
             </div>
         )
     }
 }
 
-export default BtnLogin
+export default NavBarButton;

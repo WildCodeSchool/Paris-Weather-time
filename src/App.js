@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import BtnLogin from "./components/BtnLogin"
-import BtnFavorite from "./components/BtnFavorite"
+import Bta from "./components/Bta"
+
+import NavBarButton from "./components/NavBarButton"
 import Footer from './components/Footer';
 import Logo from "./components/Logo"
 import ModalFilter from "./components/ModalFilter"
@@ -21,7 +23,8 @@ class App extends Component {
         <header className="App-header">
           <div className="l"><Logo /></div>
           <BtnLogin />
-          <BtnFavorite />
+          <Bta />
+          Modal
         </header>
         <ModalFilter />
         <div className="WeatherAPI"><WeatherAPI /></div>

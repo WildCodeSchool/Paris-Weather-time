@@ -3,8 +3,6 @@
     outline: none;
 }
 
-
-
 .tb
 {
     display: table;
@@ -65,7 +63,7 @@ input[type="text"]::placeholder
     padding-left: 3px;
 }
 
-button
+.leButton
 {
     position: relative;
     display: block;

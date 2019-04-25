@@ -2,12 +2,12 @@ import React from "react";
 import "./Form.css"
 
 const Form = props => (
-<div  classNAme="A" id="cover">
+<div  className="A" id="cover">
   <form onSubmit={props.getWeather} >
     <div className="tb">
       <div className="td"><input type="text" name="city" placeholder="Search City..."/></div>
       <div className="td" id="s-cover">
-        <button type="submit">
+        <button className="leButton" type="submit">
           <div id="s-circle"></div>
           <span></span>
         </button>

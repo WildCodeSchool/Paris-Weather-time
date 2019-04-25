@@ -1,12 +1,14 @@
 .App-header{
     position: relative; 
  
-}   
+}
+
 .l{
 
     position: absolute;
     left: 0vw;
     top: -10vh;
+    size: 50%;
 } 
 
 .App

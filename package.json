@@ -7,6 +7,8 @@
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-responsive": "^6.1.1",
+    "react-responsive-modal": "^3.6.0",
     "react-scripts": "2.1.8",
     "sass": "^1.17.4"
   },

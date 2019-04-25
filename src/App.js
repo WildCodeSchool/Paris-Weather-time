@@ -1,37 +1,39 @@
 import React, { Component } from 'react';
-import './App.css';
-import './components/WeatherDiv'
 import WeatherDiv from './components/WeatherDiv';
 import Footer from './components/Footer';
 import ActivityCards from './components/ActivityCards';
-import BtnFilter from "./components/BtnFilter"
-import BtnLogin from "./components/BtnLogin"
-import BtnFavorite from "./components/BtnFavorite"
-import Logo from "./components/Logo"
+import BtnFilter from './components/BtnFilter';
+import BtnLogin from './components/BtnLogin';
+import BtnFavorite from './components/BtnFavorite';
+import Logo from './components/Logo';
+import Form from './components/Form';
+import Modal from './components/ModalofContact';
+
+import './components/WeatherDiv';
 import './components/Logo.css';
 import './components/BtnNavBar.scss';
-
+import './App.css';
+import './components/ModalofContact.css';
+import './components/ModalofContact';
 
 
 
 class App extends Component {
   render() {
     return (
-    <div> <header className="App-header">
-        
+    <div> 
+        <header className="App-header">
           <BtnFilter />
           <BtnLogin />  
-          
           <BtnFavorite />
-             <div className="l"><Logo /></div> 
+
+        <div className="l"><Logo /></div> 
 
         </header>
-    
-        </div>
-       
-    
+    </div> 
     );
   }
+
     state = {
         weatherData: [],
         lo: true,
@@ -44,13 +46,13 @@ class App extends Component {
         // .then(res => this.state.lo ? console.log("pipi")
         // : console.log('totototo',this.state.weatherData.weather[0]))
     }
-
+    
     componentDidMount() {
         this.getWeather()
     }
-
+    
     render() {
-
+        
         if (this.state.lo) {
             return (<div>loading</div>)
         } else {
@@ -60,8 +62,8 @@ class App extends Component {
                         <BtnFilter />
                         <BtnLogin />
                         <BtnFavorite />
-
                     </header>
+                    
                     <WeatherDiv weatherData={this.state.weatherData} />
 
                     <div className="cardactivity">
@@ -71,17 +73,19 @@ class App extends Component {
                             activity="Crache sur un clochard"
                             price="Gratuit" />
 
-                        <ActivityCards
-                            photo="https://fever.imgix.net/plan/photo/a81f63a4-3f29-11e9-9020-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220"
+                    <ActivityCards
+                            photo="https://fever.imgix.net/plan/photo/a81f63a4-3f29-11e9-9020-067dfd978c4d.jpg?auto=compress&auto=Format&fm=jpg&w=220&h=220"
                             alt="clubbing"
                             activity="Soirée clubbing"
                             price="15€90" />
                     </div>
-                    <Footer />
+                    <Form />
+                    <Footer  />
                 </div>
             )
         }
     }
 }
+
 
 export default App;

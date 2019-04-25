@@ -1,34 +1,40 @@
-import React from 'react'
+import React from "react";
 
-import './Modal.css';
+import "./ModalofContact.css";
 
-const modal = (props) => {
-    return (
-        <div> 
-
-            <div className="modal-wrapper"
-                style={{
-                    // how the modal is shown
-                    transform: props.show ? 'translateY(1vh)' : 'translateY(-50vh)',
-                    opacity: props.show ? '1' : '0'
-                }}>
-                    {/* modal header */}
-                <div className="modal-header"> 
-                    <h3>CONTACT</h3>
-                    <span className="close-modal-btn" onClick={props.close}>×</span>
-                </div>
-                <div className="modal-body">
-                    <p>
-                        salut c'est moi {props.children}
-                    </p>
-                </div>
-                <div className="modal-footer">
-                    <button className="btn-cancel" onClick={props.close}>CLOSE</button>
-                    <button className="btn-continue">SEND</button>
-                </div>
-            </div>
+const Modal = props => {
+  return (
+    <div>
+      <div
+        className="modal-wrapper"
+        style={{
+          transform: props.show ? "translateY(-120vh)" : "translateY(-50vh)",
+          opacity: props.show ? "1" : "0"
+        }}
+      >
+        <div className="modal-header">
+          <h3>CONTACT</h3>
+          <span
+            className="close-modal-btn"
+            onClick={props.close}>×</span>
         </div>
-    )
-}
 
-export default modal;
+        <div className="modal-body">
+          <input className="firstName" placeholder="First name" type="text" name="name" />
+          <input className="lastName" placeholder="Last name" type="text" name="name"/>
+          <input className="email" placeholder="Email" type="text" name="name" />
+          <textarea cols={30} rows={20} />
+        </div>
+
+        <div className="modal-footer">
+          <button className="btn-cancel" onClick={props.close}>
+            CLOSE
+          </button>
+          <button className="btn-continue">CONTINUE</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Modal;

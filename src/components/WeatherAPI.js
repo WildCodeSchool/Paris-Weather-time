@@ -50,7 +50,6 @@ class WeatherAPI extends React.Component {
   }
 
   render() {
-    console.log(this.state.city)
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)

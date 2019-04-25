@@ -4,7 +4,6 @@ import './WeatherDiv.css';
 
 //l'objet Weather Data est celui qui est passé par le props de la balise WeatherDiv dans App.js. C'est un objet retourné dans le state par l'API
 const WeatherDiv = props =>{
-    console.log(props)
     const icon = "http://openweathermap.org/img/w/" + props.weather[0].icon + ".png"
    
     return (

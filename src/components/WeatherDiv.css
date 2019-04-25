@@ -1,18 +1,13 @@
-.weatherDiv{
-    margin-right: 25%;
-    margin-top: 20%;
-}
-
-.weatherImage{
+.WeatherImage{
     width: 25%;
     margin: 0 38%;
 }
-.city{
+.City{
     text-align: center;
     color: lightskyblue
 }
 
-.description{
+.Description{
     text-align: center;
     color: lightskyblue
 }

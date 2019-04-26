@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import BtnLogin from "./components/BtnLogin"
-import BtnFavorite from "./components/BtnFavorite"
+// import BtnFavorite from "./components/BtnFavorite"
 import Footer from './components/Footer';
 import Logo from "./components/Logo"
 import ModalFilter from "./components/ModalFilter"
@@ -22,7 +22,7 @@ class App extends Component {
         <header className="App-header">
           <div className="l"><Logo /></div>
           <BtnLogin />
-          <BtnFavorite />
+          {/* <BtnFavorite /> */}
           <Contact />
         </header>
         <ModalFilter />

@@ -35,7 +35,7 @@ input, button
     margin: -50px auto 0 auto;
     background-color: #0a5252;
     border-radius: 20px;
-    box-shadow: 0 5px 15px #032727, 0 0 0 2px #ffffffeb;
+    box-shadow: 0 5px 15px #13adad, 0 0 0 2px #073529eb;
 }
 
 form

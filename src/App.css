@@ -1,21 +1,35 @@
 .App-header{
-    position: relative; 
- 
+    position: relative;
+    
 }   
-.l{
 
+.l{
     position: absolute;
     left: 0vw;
     top: -10vh;
-} 
+
+}
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .App
 {
     text-align: center;
+    background-color: black;
     
 }
 .WeatherAPI{
     padding-top: 80px;
-    padding-left: 20%;
+    padding-left: 2%;
   
+}
+
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
 }

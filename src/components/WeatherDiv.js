@@ -8,14 +8,15 @@ const WeatherDiv = props =>{
     const dayIndex = new Date().getDay() + props.index
     const daylist = ["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi"]
     const today = daylist[dayIndex]
-   
+    const newTemp = props.main.temp
+
     return (
         <div className="weatherDiv">
-            <h1 className="city">{props.city}</h1>
-            <img className="weatherImage" src={icon} alt="Weather"/>
             <h1 className="day">{today}</h1>
+            <h2 className="city">{props.city}</h2>
+            <img className="weatherImage" src={icon} alt="Weather"/>
             <p className="description">{props.weather[0].description}</p>
-            <p className="description">{props.main.temp} °C</p>
+            <p className="description">{newTemp} °C</p>
 
         </div>
     )

@@ -6,8 +6,8 @@ import BtnFilter from './components/BtnFilter';
 import BtnLogin from './components/BtnLogin';
 import BtnFavorite from './components/BtnFavorite';
 import Logo from './components/Logo';
-import Form from './components/Form';
-import Modal from './components/ModalofContact';
+import Contact from './components/Contact';
+import ModalofContact from './components/ModalofContact';
 
 import './components/WeatherDiv';
 import './components/Logo.css';
@@ -79,7 +79,7 @@ class App extends Component {
                             activity="Soirée clubbing"
                             price="15€90" />
                     </div>
-                    <Form />
+                    <Contact />
                     <Footer  />
                 </div>
             )

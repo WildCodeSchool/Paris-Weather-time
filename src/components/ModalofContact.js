@@ -2,14 +2,14 @@ import React from "react";
 
 import "./ModalofContact.css";
 
-const Modal = props => {
+const ModalofContact = props => {
   return (
     <div>
       <div
-        className="modal-wrapper"
+        className="modal-wrapperContact"
         style={{
-          transform: props.show ? "translateY(-120vh)" : "translateY(-50vh)",
-          opacity: props.show ? "1" : "0"
+          transform: props.showing ? "translateY(-60vh)" : "translateY(10vh)",
+          opacity: props.showing ? "1" : "0"
         }}
       >
         <div className="modal-header">
@@ -30,11 +30,11 @@ const Modal = props => {
           <button className="btn-cancel" onClick={props.close}>
             CLOSE
           </button>
-          <button className="btn-continue">CONTINUE</button>
+          <button className="btn-continue">SEND</button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Modal;
+export default ModalofContact;

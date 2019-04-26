@@ -49,7 +49,7 @@ class SimpleSlider extends Component {
 
     return (
       <Slider {...settings}>
-        {Activity.map((data) => <ActivityCards {...data} />)}
+        {Activity.map((data,index) => <ActivityCards {...data} key={index}/>)}
       </Slider>
     )
   }

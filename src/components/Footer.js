@@ -1,7 +1,7 @@
 import React from "react";
 
 import './Footer.css';
-import ShareSocial from "./ShareSocial";
+//import ShareSocial from "./ShareSocial";
 
 class Footer extends React.Component {
 
@@ -10,7 +10,7 @@ class Footer extends React.Component {
             <div>
                 <div className="Footer-container-2">
                     <div className="Copyright-bloc"><p>@2019 - TheWeatherTime</p></div>
-                    <ShareSocial />
+                    {/*<ShareSocial />*/}
                 </div>
 
             </div>

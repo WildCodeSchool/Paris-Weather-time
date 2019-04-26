@@ -7,6 +7,7 @@
     position: absolute;
     left: 0vw;
     top: -10vh;
+<<<<<<< HEAD
 }
 .cardactivity
 {
@@ -14,3 +15,17 @@
     justify-content: space-around;
 }
 
+=======
+} 
+
+.App
+{
+    text-align: center;
+    
+}
+.WeatherAPI{
+    padding-top: 80px;
+    padding-left: 20%;
+  
+}
+>>>>>>> 3ad8c3c33fb10fb3309682e6ca1e204a5932cbd4

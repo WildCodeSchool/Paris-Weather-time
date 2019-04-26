@@ -8,6 +8,12 @@
     margin: 0 38%;
 }
 .city{
+    background: black;
+    text-align: center;
+    color: white
+}
+
+.day{
     text-align: center;
     color: lightskyblue
 }

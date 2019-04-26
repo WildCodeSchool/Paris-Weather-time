@@ -1,21 +1,25 @@
+$green: #2ecc71;
 $black: #000000;
+$yellow: #f1c40f;
 $blue: #0ba3c9;
 $white: #ffffff;
 
-//-- Button NavBar Effect With Effect --//
-.btn-filter, .btn-2, .btn-3 {
+.btn-1, .btn-2, .btn-3 {
 	appearance: none;
   background-color: transparent;
   border: 2px solid $black;
-  border-radius: 3em;
+  border-radius: 0.6em;
   cursor: pointer;
   display: flex;
   align-self: center;
-  margin: 10px;
-  margin-top: 6px;
-	padding: 0.1em 0.1em;
+	line-height: 0;
+  margin: 2px;
+  margin-top: 10px;
+	padding: 0em 0.3em;
+	text-align: center;
+	text-transform: uppercase;
 	font-weight: 900;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   
   &:hover,
   &:focus {
@@ -23,9 +27,8 @@ $white: #ffffff;
     outline: 0;
   }
 }
-
-//-- Button Border Color --//
-.btn-filter, .btn-2, .btn-3 {
+  
+.btn-1, .btn-2, .btn-3 {
 	color: #fff;
 	box-shadow: 0 0 40px 40px $black inset, 0 0 0 0 $black;
 	transition: all 150ms ease-in-out;
@@ -36,24 +39,15 @@ $white: #ffffff;
   }
 }
 
-//-- Size Icon --//
-.icon {
-  width: 5vw;
+.icon{
+  width: 6vw;
 }
 
-//-- Position Button Filter --//
-.btn-filter {
-  position: absolute;
-  top: 0;
-  left: 64vw;
-}
-
-/*-- Container NavBar --*/
 .App-header {
-  background-color:#052522;
-  min-height: 7.5vh;
+  background-color: lightcyan;
+  min-height: 12vh;
   display: flex;
   justify-content: flex-end; 
+  font-size: calc(10px + 4vmin);
   color: white;
 }
-

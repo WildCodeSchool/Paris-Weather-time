@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Modal from './ModalofContact';
+import ModalofContact from "./ModalofContact";
 
-class Form extends Component{
+class Contact extends Component{
 
 constructor() {
     super();
@@ -26,14 +26,14 @@ closeModalHandler = () => {
     render() {
         return (
             <div className="btn-NavBar">
-                <button className="" onClick={this.state.isShowing ? this.closeModalHandler : this.openModalHandler}></button>
-                <Modal
+                <button className="" onClick={this.state.isShowing ? this.closeModalHandler : this.openModalHandler}>CONTACT</button>
+                <ModalofContact
                     className="modal"
                     show={this.state.isShowing}
                     close={this.closeModalHandler}>
-                </Modal>
+                </ModalofContact>
             </div>
         )
     }
 }
-export default Form; 
+export default Contact; 

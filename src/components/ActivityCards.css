@@ -14,12 +14,13 @@
    position: absolute; 
    width: 44vw;
    font-size: 15px;
-   color:aliceblue;
+   color:white;
 }
 
 .card p {
     position: absolute;
     left: 31vw;
     top: -2vh;
-    color: aliceblue;
+    color: white;
+    font-weight: bold;
 }

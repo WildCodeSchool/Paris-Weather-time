@@ -7,9 +7,15 @@
     position: absolute;
     left: 0vw;
     top: -10vh;
-<<<<<<< HEAD
-  
-} 
+
+}
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 .App
 {
@@ -21,12 +27,10 @@
     padding-left: 2%;
   
 }
-=======
-}
+
 .cardactivity
 {
     display: flex;
     justify-content: space-around;
 }
 
->>>>>>> f16f51f159e041b1913b63a697e0c90e3050664c

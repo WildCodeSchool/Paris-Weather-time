@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ModalofContact.css";
 
-const Modal = props => {
+const ModalofContact = props => {
   return (
     <div>
       <div
@@ -37,4 +37,4 @@ const Modal = props => {
   );
 };
 
-export default Modal;
+export default ModalofContact;

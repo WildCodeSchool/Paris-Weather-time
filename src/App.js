@@ -20,10 +20,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="l"><Logo /></div>
-          {/* <BtnLogin /> */}
           <NavBarButton />
         </header>
-        {/* <ModalFilter /> */}
         <div className="WeatherAPI"><WeatherAPI /></div>
         <SimpleSlider/>
         <Footer />

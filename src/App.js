@@ -15,6 +15,7 @@ import './components/WeatherDiv';
 
 class App extends Component {
   state = {
+    
   }
   render() {
     return (
@@ -27,8 +28,6 @@ class App extends Component {
         </header>   <div className="WeatherAPI"><WeatherAPI /></div>
         <SimpleSlider/>
        <div className="footer"> <Footer /></div>
-
-
       </div>
     )
   }

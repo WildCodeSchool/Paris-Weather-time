@@ -4,8 +4,12 @@ import ActivityCards from "./ActivityCards";
 import Activity from "./Activity.json"
 import './SimpleSlider.css';
 
+
 class SimpleSlider extends Component {
+
   render() {
+
+
     const settings = {
       dots: true,
       infinite: true,
@@ -37,20 +41,22 @@ class SimpleSlider extends Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
+
             infinite: true,
             repeat: 99
+
           }
         }
       ]
     }
 
+
+
     return (
-      
-      
       <Slider {...settings}>
-        {Activity.map((data) => <ActivityCards {...data} />)}
-      </Slider >
-    
+        {Activity.map((data,index) => <ActivityCards {...data} key={index}/>)}
+      </Slider>
+
     )
   }
 }

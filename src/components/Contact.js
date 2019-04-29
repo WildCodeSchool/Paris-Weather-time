@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ModalofContact from './ModalofContact';
 import './ModalofContact.css';
+import iconeContact from "../images/iconeContact.png"
 
 
 class Contact extends Component{
@@ -12,13 +13,13 @@ constructor() {
         isShow: false
     }
 }
-
+// fonction de l'ouverture de la modal
 openModal = () => {
     this.setState({
         isShow: true
     });
 }
-
+// fonction de la fermeture de la modal
 closeModal = () => {
     this.setState({
         isShow: false
@@ -28,7 +29,9 @@ closeModal = () => {
     render() {
         return (
             <div>
-                <button onClick={this.state.isShow ? this.closeModal : this.openModal}><img src="https://img.icons8.com/metro/26/000000/new-post.png"className="icon" alt="logo"/></button>
+                <header className="btn-NavBar">
+                <button onClick={this.state.isShow ? this.closeModal : this.openModal}><img src={iconeContact} className="iconContact" alt="logo"/></button>
+                </header>
                 <ModalofContact
                     showing={this.state.isShow}
                     close={this.closeModal}>

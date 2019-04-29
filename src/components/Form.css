@@ -39,6 +39,7 @@ input, button
     background-color: #ff7575;
     border-radius: 20px;
     box-shadow: 0 5px 15px #ff7c7c, 0 0 0 2px #ffffffeb;
+    z-index: 1;
 }
 
 form

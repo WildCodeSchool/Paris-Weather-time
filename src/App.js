@@ -24,13 +24,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="l"><Logo /></div>
-          <Contact />
           <BtnLogin />
           <BtnFavorite />
         </header>
         <ModalFilter />
         <div className="WeatherAPI"><WeatherAPI /></div>
         <SimpleSlider/>
+          
+        <Contact />
         <Footer />
 
 

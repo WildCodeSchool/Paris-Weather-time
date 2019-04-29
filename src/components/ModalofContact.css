@@ -1,16 +1,21 @@
 .modalClose{
     display:none;
 }
+
+.iconContact{
+width: 30px;
+}
+
+
 .modalOpen{
     background: #d0cccc;
     border: 1px solid #d0cccc;
     box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
-    margin:  auto ;
     transition: all .8s;
-    width: 300px;
-    height: 500px;
     border-radius: 05px;
-    z-index: 3;
+}
+
+.modal-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,11 +24,9 @@
 
 .modal-header {
     background: #213D49;
-    height: 40px;
-    line-height: 40px;
+    width: auto;
     padding: auto;
     border-radius: 05px;
-    
 }
 
 h3 {
@@ -34,15 +37,13 @@ h3 {
 }
 
 .modal-body {
-    padding: 10px 15px;
-    margin:40px 20px 10px ;
     text-align: center;
-   
+    width: auto;
 }
 
 .modal-footer {
     background: #d0cccc;
-    height: 35px;
+    width: auto;
     padding: 15px;
     border-radius: 05px;
 }
@@ -60,23 +61,13 @@ h3 {
     color: black;
 }
 
-.btn-cancel, .btn-continue {
-    background: coral;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    outline: none;
-    padding: 10px;
-    border-radius: 05px;
-}
-
 .btn-cancel {
     background-color: #b71c1c;
     float: left;
     border-radius: 4px;
     border-radius: 05px;
 }
+
 .btn-cancel:hover {
     background-color:#811313;
     
@@ -87,36 +78,24 @@ h3 {
     float: right;
     border-radius: 4px;
 }
+
 .btn-continue:hover {
     background-color:#113b13;
     
 }
-.back-drop {
+
+/* .back-drop {
     background-color: rgba(48, 49, 48, 0.42);
     height: 100%;
-   
-    position: fixed;
+    position: static;
     transition: all 1.3s;
     width: 100%;
-    
-}
+} */
 
-.open-modal-btn {
-    margin: 15px;
-    padding: 10px;
-    font-weight: bold;
-}
-
-.firstName{
+.firstName, .lastName, .email{
     width: 160px;
     
 }
 
-.lastName{
-    width: 160px;
-}
 
-.email{
-    width: 160px;   
-}
 

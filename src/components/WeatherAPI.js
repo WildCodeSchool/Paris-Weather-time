@@ -53,7 +53,7 @@ class WeatherAPI extends React.Component {
 
     const settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1

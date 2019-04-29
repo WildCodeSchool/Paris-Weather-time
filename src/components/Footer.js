@@ -9,15 +9,15 @@ class Footer extends React.Component {
                <div className = "Footer-container-2">
                    <div className="Copyright-bloc"><p>@2019 - TheWeatherTime</p></div>
                    <div className="Social-networks">
-                       <img src="https://i.ibb.co/pxJ3WFf/icon-insta.png
+                      <a href="https://www.instagram.com/?hl=fr"> <img src="https://i.ibb.co/pxJ3WFf/icon-insta.png
 https://i.ibb.co/pxJ3WFf/icon-insta.png
-" alt="icon instagram"/>
-                    <img src="https://i.ibb.co/HCY9VFh/icon-twitter.png
+" alt="icon instagram"/></a>
+                    <a href="https://twitter.com/?lang=fr"><img src="https://i.ibb.co/HCY9VFh/icon-twitter.png
 https://i.ibb.co/HCY9VFh/icon-twitter.png
-" alt="icon twitter"/>
-                      <img src="https://i.ibb.co/YPN0xMC/icons8-facebook-35.png
+" alt="icon twitter"/></a>
+                       <a href="https://fr-fr.facebook.com/">  <img src="https://i.ibb.co/YPN0xMC/icons8-facebook-35.png
 https://i.ibb.co/YPN0xMC/icons8-facebook-35.png
-" alt="icon facebook"/>
+" alt="icon facebook"/></a>
                        <img src="https://i.ibb.co/jgkCLb3/icons8-secured-letter-35.png
 https://i.ibb.co/jgkCLb3/icons8-secured-letter-35.png
 " alt="icon contact"/>

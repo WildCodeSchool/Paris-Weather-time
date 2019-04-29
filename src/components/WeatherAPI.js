@@ -3,7 +3,8 @@ import Form from "./Form";
 import WeatherDiv from "./WeatherDiv";
 import "./Form.css"
 import Slider from "react-slick"
-
+import ActivityCards from "./ActivityCards"
+import Activity from "./Activity.json"
 
 class WeatherAPI extends React.Component {
   state = {
@@ -51,9 +52,49 @@ class WeatherAPI extends React.Component {
 
   render() {
 
-    const settings = {
+    const param = {
       dots: true,
       infinite: true,
+      speed: 1500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+            infinite: true
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+
+            infinite: true,
+            repeat: 99
+
+          }
+        }
+      ]
+    }
+    
+    const settings = {
+      dots: true,
+      infinite: false,
       speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1
@@ -61,6 +102,33 @@ class WeatherAPI extends React.Component {
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)
+    } else if (this.state.weatherData.list[0].weather[0].main === "Rain") {
+      return (
+        <div>
+          <div>
+            <Form getWeather={this.getWeather} />
+          </div>
+
+          <div>
+            <Slider {...settings} >
+              {/*le filter map permet de ne sélectionner que une prévision par jour dans le tableau d'objets list contenu dans l'objet weatherData. Autrement list contient des prévisions toutes les trois heures. */}
+              {this.state.weatherData.list
+                .filter(data => data.dt_txt.includes("12:00:00"))
+                .map((data, index) => (
+
+                  <WeatherDiv {...data} city={this.state.city} index={index} key={index} />
+
+                ))}
+            </Slider>
+          </div>
+          <div>
+            <Slider {...param}>
+              {Activity.filter(data => data.type.toString().includes("indoor"))
+                .map((data, index) => <ActivityCards {...data} key={index} />)}
+            </Slider>
+          </div>
+        </div>
+      )
     } else {
       return (
         <div>
@@ -80,12 +148,15 @@ class WeatherAPI extends React.Component {
                 ))}
             </Slider>
           </div>
-
+          <div>
+            <Slider {...param}>
+              {Activity.map((data, index) => <ActivityCards {...data} key={index} />)}
+            </Slider>
+          </div>
         </div>
-      );
+      )
     }
   }
-};
+}
 
 export default WeatherAPI
-  ;

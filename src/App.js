@@ -27,7 +27,7 @@ class App extends Component {
         </header>
         <ModalFilter />
         <div className="WeatherAPI"><WeatherAPI /></div>
-        <SimpleSlider/>
+       
         <Footer />
 
 

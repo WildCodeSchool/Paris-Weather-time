@@ -39,25 +39,32 @@ class NavBarButton extends Component {
     }
 
     render() {
-        const { btn1 } = this.state
+        const { btn1, btn2, none } = this.state
         return (
             <div className="">
                 <button className="btn-filter" onClick={this.state.isShowing ? () => this.closeModalHandler("btn1") : () => this.openModalHandler("btn1")}><img src={filtre} className="icon" alt="logo" /></button>
                 <button className="btn-profil" onClick={this.state.isShowing ? () => this.closeModalHandler("btn2") : () => this.openModalHandler("btn2")}><img src={profil} className="icon" alt="logo" /></button>
                 <button className="btn-favorites" onClick={this.state.isShowing ? () => this.closeModalHandler("btn3") : () => this.openModalHandler("btn3")}><img src={favorites} className="icon" alt="logo" /></button>
-                {
-                    btn1 === true ?
-                        <EffectModalFilter
-                            show={this.state.isShowing}
-                            close={this.closeModalHandler}>
-                            Filtre
-                            <button className="applyfilter">Appliquer Filtres</button>
-					    </EffectModalFilter> :
-                        <EffectModalFilter
-                            show={this.state.isShowing}
-                            close={this.closeModalHandler}>
-                            Profil
-					    </EffectModalFilter>
+                    {
+                        btn1 === true ?
+                    <EffectModalFilter
+                        show={this.state.isShowing}
+                        close={this.closeModalHandler}>
+                        Filtre
+                        <button className="applyfilter">Appliquer Filtres</button>
+                    </EffectModalFilter> :
+                    <EffectModalFilter
+                        show={this.state.isShowing}
+                        close={this.closeModalHandler}>
+                        Profil
+                    </EffectModalFilter>
+                } {
+                    btn2 === none ?
+                    <EffectModalFilter
+                    show={this.state.isShowing}
+                    close={this.closeModalHandler}>
+                    Profil
+                </EffectModalFilter> : none
                 }
             </div>
         )

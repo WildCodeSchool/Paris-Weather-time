@@ -1,0 +1,13 @@
+.WeatherImage{
+    width: 25%;
+    margin: 0 38%;
+}
+.City{
+    text-align: center;
+    color: lightskyblue
+}
+
+.Description{
+    text-align: center;
+    color: lightskyblue
+}

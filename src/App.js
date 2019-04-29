@@ -6,9 +6,13 @@ import Logo from "./components/Logo"
 import ModalFilter from "./components/ModalFilter"
 import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
+import Contact from './components/Contact';
+
+
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
+
 
 
 
@@ -20,6 +24,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="l"><Logo /></div>
+          <Contact />
           <BtnLogin />
           <BtnFavorite />
         </header>

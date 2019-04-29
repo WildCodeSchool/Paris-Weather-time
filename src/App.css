@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 .App-header{
     position: relative;
     
 }   
 
-.l{
+.logo1{
     position: absolute;
     left: 0vw;
-    top: -10vh;
+    top: -1vh;
 
+}
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+   color:rgb(161, 208, 230);
+    position: absolute;
+    width: 28vw;
+    left: 15vw;
+    top: 2.7vh;
 }
 .cardactivity
 {
@@ -33,4 +42,7 @@
 {
     display: flex;
     justify-content: space-around;
+}
+.footer{
+    padding-top:20px; 
 }

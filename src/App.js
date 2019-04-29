@@ -19,27 +19,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-<<<<<<< HEAD
-        <header className="App-header">
-          <div className="l"><Logo /></div>
-          <BtnLogin />
-          {/* <BtnFavorite /> */}
-          <Contact />
-        </header>
-        <ModalFilter />
-        <div className="WeatherAPI"><WeatherAPI /></div>
-       
-        <Footer />
-=======
         <header className="App-header">   
           <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
            <BtnLogin />
            <Contact />
            <ModalFilter />
         </header>   <div className="WeatherAPI"><WeatherAPI /></div>
-        <SimpleSlider/>
        <div className="footer"> <Footer /></div>
->>>>>>> develop
 
 
       </div>

@@ -22,16 +22,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+          
         <header className="App-header">
           <div className="l"><Logo /></div>
-          <BtnLogin />
-          <BtnFavorite />
         </header>
         <ModalFilter />
+        <Contact />
         <div className="WeatherAPI"><WeatherAPI /></div>
         <SimpleSlider/>
           
-        <Contact />
+        
         <Footer />
 
 

@@ -72,4 +72,4 @@ class WeatherAPI extends React.Component {
 };
 
 export default WeatherAPI
-  ;
+;

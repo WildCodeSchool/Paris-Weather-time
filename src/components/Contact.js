@@ -29,9 +29,7 @@ closeModal = () => {
     render() {
         return (
             <div>
-                <header className="btn-NavBar">
-                <button onClick={this.state.isShow ? this.closeModal : this.openModal}><img src={iconeContact} className="iconContact" alt="logo"/></button>
-                </header>
+                <button className="btncontact" onClick={this.state.isShow ? this.closeModal : this.openModal}><img src={iconeContact} className="iconContact" alt="logo"/></button>
                 <ModalofContact
                     showing={this.state.isShow}
                     close={this.closeModal}>

@@ -16,7 +16,7 @@ if (props.showing === true){
       <div
         className={changeModal}
         style={{
-          transform: props.showing ? "translateY(-150vh)" : "translateY(10vh)",
+          transform: props.showing ? "translateY(0vh)" : "translateY(-100vh)",
           opacity: props.showing ? "1" : "0"
         }}
           //   "
@@ -26,18 +26,19 @@ if (props.showing === true){
       {/* header de la modal */}
         <div className="modal-header">
           <h3>CONTACT</h3>
-        
         {/* croix de fermeture de la modal */}
-          <div
+          <p
             className="close-modal-btn"
-            onClick={props.close}>×</div>
+            onClick={props.close}></p>
         </div>
+
+
         {/* body de la modal */}
         <div className="modal-body">
           <input className="firstName" placeholder="First name" type="text" name="name" />
           <input className="lastName" placeholder="Last name" type="text" name="name"/>
           <input className="email" placeholder="Email" type="text" name="name" />
-          <textarea cols={30} rows={20} />
+          <textarea className="modalarea" cols={45} rows={20} />
         </div>
         {/* pied de la modal */}
         <div className="modal-footer">

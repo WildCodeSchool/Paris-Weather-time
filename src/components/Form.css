@@ -1,4 +1,4 @@
-*
+/* *
 {
     outline: none;
 }
@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-input, button
+/* input, button
 {
     color: #fff;
     font-family: Nunito;
@@ -25,9 +25,9 @@ input, button
     margin: 0;
     border: 0;
     background-color: transparent;
-}
+} */
 
-#cover
+/* #cover
 {
     position: absolute;
     top: 20%;
@@ -40,41 +40,45 @@ input, button
     border-radius: 20px;
     box-shadow: 0 5px 15px #ff7c7c, 0 0 0 2px #ffffffeb;
     z-index: 1;
-}
-
+} */
+/* 
 form
 {
     height: 60px;
-}
+} */
 
-input[type="text"]
+/* input[type="text"]
 {
     width: 90%;
     height: 60px;
     font-size: 30px;
     line-height: 1;
-}
-
+} */
+/* 
 input[type="text"]::placeholder
 {
     color: #e16868;
-}
+} */
 
 #s-cover
 {
     width: 1px;
     padding-left: 3px;
-}
+} 
 
 button
 {
+    border: none;
+    background: transparent;
     position: relative;
     display: block;
-    width: 70px;
-    height: 30px;
-    cursor: pointer;
+    left: 34vh;
+    top: -13vw;
+    /* width: 70px;
+    height: 30px; */
+     /* cursor: pointer;  */
 }
-
+/* 
 #s-circle
 {
     position: relative;
@@ -150,5 +154,5 @@ button span:before, button span:after
 {
     right: -6px;
     width: 40px;
-    background-color: #fff;
-}
+    background-color: #fff; 
+} */

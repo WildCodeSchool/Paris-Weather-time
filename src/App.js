@@ -24,9 +24,7 @@ class App extends Component {
            <BtnLogin />
            <Contact />
            <ModalFilter />
-        </header>  
-         <div className="WeatherAPI"><WeatherAPI /></div>
-
+        </header>   <div className="WeatherAPI"><WeatherAPI /></div>
        <div className="footer"> <Footer /></div>
       </div>
     )

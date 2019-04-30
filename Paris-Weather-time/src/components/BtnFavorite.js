@@ -4,7 +4,7 @@ import favorites from "../images/favorites.png"
 const BtnFavorite = () => {
     return (
         <header className="btn-NavBar">
-            <button className="btn-2"><img src={favorites} className="icon" alt="logo"/></button>
+            <button class="btn-2"><img src={favorites} className="icon" alt="logo"/></button>
         </header>
     )
 }

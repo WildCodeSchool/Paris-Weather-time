@@ -8,7 +8,8 @@ const WeatherDiv = props =>{
     const dayIndex = new Date().getDay() + props.index
     const daylist = ["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi"]
     const today = daylist[dayIndex]
-    const newTemp = props.main.temp
+    let newTemp = props.main.temp
+    const slicedTemp = newTemp.toString().slice(0,-3)
 
     return (
         <div className="weatherDiv">
@@ -16,7 +17,7 @@ const WeatherDiv = props =>{
             <h2 className="city">{props.city}</h2>
             <img className="weatherImage" src={icon} alt="Weather"/>
             <p className="description">{props.weather[0].description}</p>
-            <p className="description">{newTemp} °C</p>
+            <p className="description">{slicedTemp} °C</p>
 
         </div>
     )

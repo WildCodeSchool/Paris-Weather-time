@@ -91,7 +91,7 @@ class WeatherAPI extends React.Component {
         }
       ]
     }
-    
+
     const settings = {
       dots: true,
       infinite: false,

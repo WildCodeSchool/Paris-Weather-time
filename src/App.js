@@ -15,7 +15,6 @@ import './components/WeatherDiv';
 
 class App extends Component {
   state = {
-    
   }
   render() {
     return (
@@ -25,8 +24,9 @@ class App extends Component {
            <BtnLogin />
            <Contact />
            <ModalFilter />
-        </header>   <div className="WeatherAPI"><WeatherAPI /></div>
-        <SimpleSlider/>
+        </header>  
+         <div className="WeatherAPI"><WeatherAPI /></div>
+
        <div className="footer"> <Footer /></div>
       </div>
     )

@@ -52,7 +52,7 @@ const WeatherDiv = props =>{
 
     return (
         <div className="weatherDiv">
-            <h1 className="day">{today}</h1>
+            <h2 className="day">{today}</h2>
             <img className="weatherImage" src={icon} alt="Weather"/>
             <p className="description">{props.weather[0].description}</p>
             <p className="description">{slicedTemp} °C</p>

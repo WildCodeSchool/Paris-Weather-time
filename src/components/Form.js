@@ -9,7 +9,7 @@ const Form = props => (
       <div className="td" id="s-cover">
         <button className="leButton" type="submit">
           <div id="s-circle"></div>
-          <span></span>
+          <span className="litlebar"></span>
         </button>
       </div>
     </div>

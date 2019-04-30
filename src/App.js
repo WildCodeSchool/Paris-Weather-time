@@ -19,6 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <header className="App-header">   
           <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
            <BtnLogin />
@@ -26,6 +27,7 @@ class App extends Component {
            <ModalFilter />
         </header>   <div className="WeatherAPI"><WeatherAPI /></div>
        <div className="footer"> <Footer /></div>
+
 
 
       </div>

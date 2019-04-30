@@ -6,6 +6,7 @@ import Slider from "react-slick"
 import ActivityCards from "./ActivityCards"
 import Activity from "./Activity.json"
 
+
 class WeatherAPI extends React.Component {
   state = {
     city: '',
@@ -124,7 +125,9 @@ class WeatherAPI extends React.Component {
           <div>
             <Slider {...param}>
               {Activity.filter(data => data.type.toString().includes("indoor"))
-                .map((data, index) => <ActivityCards {...data} key={index} />)}
+                .map((data, index) =>
+           <ActivityCards {...data} key={index} />)}
+         
             </Slider>
           </div>
         </div>

@@ -8,10 +8,12 @@ import ModalFilter from "./components/ModalFilter"
 import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
 import Contact from './components/Contact'
+import AsmaModal from './components/SarahModal'
 import './components/ModalofContact.css';
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
+import "./components/ModalAffichage.css";
 
 class App extends Component {
   state = {
@@ -24,7 +26,9 @@ class App extends Component {
            <BtnLogin />
            <Contact />
            <ModalFilter />
-        </header>   <div className="WeatherAPI"><WeatherAPI /></div>
+        </header>   
+        <div className="WeatherAPI"><WeatherAPI /></div>
+        <AsmaModal />
        <div className="footer"> <Footer /></div>
       </div>
     )

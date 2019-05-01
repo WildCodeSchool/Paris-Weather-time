@@ -4,6 +4,7 @@ import EffectModalFilter from './EffectModalFilter';
 import filtre from '../images/filtre.png'
 
 import '../components/BtnNavBar.scss'
+import FilterInModal from "./FilterInModal";
 
 
 class NavbarButton extends Component {
@@ -33,7 +34,8 @@ class NavbarButton extends Component {
                 <EffectModalFilter
                     show={this.state.isShowing}
                     close={this.closeModalHandler}>
-                    ksjscj
+                <FilterInModal/>
+                <button className="applyfilter"> Appliquer Filtres</button>
                 </EffectModalFilter>
             </div>
         )

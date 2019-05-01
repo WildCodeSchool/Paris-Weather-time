@@ -59,13 +59,119 @@ $white: #ffffff;
 }
 
 .applyfilter{
-  margin-top: 162%;
+  cursor: pointer;
   width: 100%;
-  height: 12vh;
+  height: 14vh;
   z-index: 2;
-  background-color: lightskyblue;
+  background-color: #00c6ff;
   border: none;
   margin-left: 0px;
   margin-right: 0px;
   font-size: 33px;
+}
+
+
+.catfilter{
+  margin-top: 2em;
+  padding: -1%;
+  top: -11vw;
+  left: 7vw;
+  position: relative;
+  font-size: 25px;
+    z-index: 100;
+    text-shadow: .04em .04em 0 #9cb8b3;
+}
+
+.catfilter:after{
+    content: attr(data-shadow-text);
+    color: white;
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    top: .0875em;
+    z-index: -1;
+  }
+
+.prifilter{
+  padding: 0;
+  left: -132px;
+  position: relative;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.grfilter{
+  padding: 0;
+  left: -120px;
+  position: relative;
+  margin-top: -2em;
+  margin-bottom: -1em;
+}
+
+.whfilter{
+  padding: 0;
+  left: -132px;
+  position: relative;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+.lifilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 2px;
+  padding: 5px;
+  display: inline-block;
+  -webkit-justify-content: left;
+  justify-content: left;
+  border: solid #000;
+  background: grey;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+.ligrfilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 8px;
+  padding: 5px;
+  display: inline-block;
+  justify-content: left;
+  border-radius: 5%;
+  border :  solid #000;
+  background: grey;
+  background-image: linear-gradient(to left,
+  transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+.liwhfilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 5px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-around;
+  border :  none;
+  background: grey;
+  background-size: 5px;
+  background-image: linear-gradient(to left,
+  transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+.ligrfilter, .lifilter, .liwhfilter, li:hover{
+  background-position: 0 0;
 }

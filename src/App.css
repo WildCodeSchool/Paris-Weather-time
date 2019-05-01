@@ -2,22 +2,67 @@
 .App-header{
     position: relative;
     
-}   
+}
+/* sur les peties écrans  */
+@media screen and (max-width: 500px)  {
+    body{
+background-color: rgb(108, 240, 0);
+    }
 
+.logo1{
+     position: absolute;
+        left:1vw;
+    }
+
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(161, 208, 230);
+    position: absolute;
+    width:20vh;
+     bottom: 1vh;
+  
+}
+    }
+/* pour les grandes écrans */
+@media screen and (min-width: 501px)and (max-width:2000px)  {
+    body{
+background-color: rgb(240, 0, 228);
+    }
+
+.logo1{
+     position: absolute;
+        left:1vw;
+        top: 2vh;
+    }
+
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(161, 208, 230);
+    position: absolute;
+    width:20vh;
+     bottom: 1vh;
+     left:6vh ;
+}
+    }
+/* 
 .logo1{
     position: absolute;
     left: 0vw;
     top: -1vh;
 
-}
-.logoTitre{ 
+} */
+
+
+/* .logoTitre{ 
     font-family: 'Gloria Hallelujah', cursive;
    color:rgb(161, 208, 230);
     position: absolute;
     width: 28vw;
     left: 15vw;
     top: 2.7vh;
-}
+} */
+
+
 .cardactivity
 {
     display: flex;

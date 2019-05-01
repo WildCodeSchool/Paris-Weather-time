@@ -4,7 +4,7 @@ import "./ModalAffichage.css"
  
 
   
-class AsmaModal extends React.Component{
+class SarahModal extends React.Component{
 
    state={
       modal: false
@@ -29,5 +29,5 @@ class AsmaModal extends React.Component{
     
   }
 
-export default AsmaModal
+export default SarahModal;
 

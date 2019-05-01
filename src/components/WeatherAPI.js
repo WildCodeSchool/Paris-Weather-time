@@ -107,7 +107,7 @@ class WeatherAPI extends React.Component {
       return (
         <div>
           <div>
-            <Form getWeather={this.getWeather} />
+            <Form getWeather={this.getWeather} city={this.state.city}/>
           </div>
 
           <div>
@@ -136,7 +136,7 @@ class WeatherAPI extends React.Component {
       return (
         <div>
           <div>
-            <Form getWeather={this.getWeather} />
+            <Form getWeather={this.getWeather} city={this.state.city}/>
           </div>
 
           <div>

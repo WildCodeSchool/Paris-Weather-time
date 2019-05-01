@@ -1,59 +1,46 @@
 .Footer-container{
    background-color:#213D49;
-   height: 35vh;
+   height: 3vh;
  }
  .Footer-container-2{
    background-color:#182D36;
-   height: 10vh;
+   height: 18vh;
  
  }
  .Copyright-bloc {
    color:rgb(77, 101, 112);
+   margin-left: 41%;
  }
  /*icon social networks*/
  .Social-networks img{
-   padding:15px;
+   padding-top: 4vh;
+   padding-left: 34vh;
+ ;
  }
  
- /*Footer Responsive*/
- @media (max-width : 768px){
-   .Footer-container-2{
-    margin-top:-18px;
-    display:flex;
-    flex-direction: column-reverse;
-    height:15vh;
+
  
-   }
-   .Social-networks {
-      margin-bottom:-10px;
-   }
- }.Footer-container{
-   background-color:#213D49;
-   height: 35vh;
- }
- .Footer-container-2{
-   background-color:#182D36;
-   height: 10vh;
+ /*Footer Responsive petites écrans*/
+ @media (max-width : 501px){
+
+  .Footer-container{
+    background-color:#213D49;
+    height: 1vh;
+  }
+  .Footer-container-2{
+    background-color:#182D36;
+    height: 18vh;
+  }
+  .Copyright-bloc {
+    color:rgb(77, 101, 112);
+    margin-left: 27%;
+  }
+  /*icon social networks*/
+  .Social-networks img{
+    padding-left: 6vh;
+  }
+  
  
- }
- .Copyright-bloc {
-   color:rgb(77, 101, 112);
- }
- /*icon social networks*/
- .Social-networks img{
-   padding:15px;
- }
- 
- /*Footer Responsive*/
- @media (max-width : 768px){
-   .Footer-container-2{
-    margin-top:-18px;
-    display:flex;
-    flex-direction: column-reverse;
-    height:15vh;
- 
-   }
-   .Social-networks {
-      margin-bottom:-30px;
-   }
+  
+   
  }

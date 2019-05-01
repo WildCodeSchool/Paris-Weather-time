@@ -11,15 +11,17 @@ background-color: rgb(108, 240, 0);
 
 .logo1{
      position: absolute;
-        left:1vw;
+        left:2vw;
+    
     }
 
 .logoTitre{ 
     font-family: 'Gloria Hallelujah', cursive;
     color:rgb(161, 208, 230);
     position: absolute;
-    width:20vh;
+    width:19vh;
      bottom: 1vh;
+     left :6vh;
   
 }
 
@@ -42,23 +44,20 @@ background-color: rgb(240, 0, 228);
     position: absolute;
     width:20vh;
      bottom: 1vh;
-     left:6vh ;
+     left:8vh ;
 }
 
 
     }
-
-
 .cardactivity
 {
     display: flex;
     justify-content: space-around;
 }
 
-
 .App
 {
-    text-align: center;
+    
     background-color: black;
     
     
@@ -67,13 +66,4 @@ background-color: rgb(240, 0, 228);
     padding-top: 80px;
     padding-left: 2%;
   
-}
-
-.cardactivity
-{
-    display: flex;
-    justify-content: space-around;
-}
-.footer{
-    padding-top:20px; 
 }

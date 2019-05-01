@@ -22,6 +22,7 @@ background-color: rgb(108, 240, 0);
      bottom: 1vh;
   
 }
+
     }
 /* pour les grandes écrans */
 @media screen and (min-width: 501px)and (max-width:2000px)  {
@@ -43,24 +44,9 @@ background-color: rgb(240, 0, 228);
      bottom: 1vh;
      left:6vh ;
 }
+
+
     }
-/* 
-.logo1{
-    position: absolute;
-    left: 0vw;
-    top: -1vh;
-
-} */
-
-
-/* .logoTitre{ 
-    font-family: 'Gloria Hallelujah', cursive;
-   color:rgb(161, 208, 230);
-    position: absolute;
-    width: 28vw;
-    left: 15vw;
-    top: 2.7vh;
-} */
 
 
 .cardactivity

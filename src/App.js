@@ -25,10 +25,10 @@ class App extends Component {
           <NavBarButton />
           <Contact />
         </header>
-        <body>
+     
           <div className="WeatherAPI"><WeatherAPI /></div>
           <div className="footer"> <Footer /></div>
-        </body>
+
       </div>
     )
   }

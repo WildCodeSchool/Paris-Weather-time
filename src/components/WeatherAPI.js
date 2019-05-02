@@ -57,8 +57,8 @@ class WeatherAPI extends React.Component {
       dots: true,
       infinite: true,
       speed: 1500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       initialSlide: 0,
       responsive: [
         {
@@ -67,7 +67,8 @@ class WeatherAPI extends React.Component {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false,
+      
           }
         },
         {

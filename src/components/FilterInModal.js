@@ -13,7 +13,7 @@ class FilterInModal extends React.Component {
 					<tr className="tablefilter">
 						<div className="grfilter">Nombres de personnes</div>
 						<ul className="ligrfilter">
-							<li>1 à 5   </li>
+							<li>1 à 5</li>
 							<li>5 à 10</li>
 							<li>10 et +</li>
 						</ul>

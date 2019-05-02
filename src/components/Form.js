@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./Form.css"
 
@@ -7,9 +8,9 @@ const Form = props => (
     <div className="global">
       <div className="searchBar"><input type="text" name="city" placeholder={props.city}/></div>
       <div className="searchBar" id="s-cover">
-        <button className="buttonSearsh" type="submit">
+        <button className="leButton" type="submit">
           <div id="s-circle"></div>
-          <span className="litlebar"></span>
+          <span></span>
         </button>
       </div>
     </div>

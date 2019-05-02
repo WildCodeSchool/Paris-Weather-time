@@ -5,7 +5,6 @@ import Logo from "./components/Logo"
 import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
 import Contact from './components/Contact'
-import SarahModal from './components/SarahModal'
 import NavBarButton from './components/NavBarButton';
 
 
@@ -13,7 +12,7 @@ import './components/ModalofContact.css';
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
-import "./components/ModalAffichage.css";
+
 
 class App extends Component {
   state = {
@@ -28,7 +27,6 @@ class App extends Component {
         </header>
         <body>
           <div className="WeatherAPI"><WeatherAPI /></div>
-          <SarahModal />
           <div className="footer"> <Footer /></div>
         </body>
       </div>

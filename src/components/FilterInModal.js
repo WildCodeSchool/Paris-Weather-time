@@ -7,36 +7,36 @@ class FilterInModal extends React.Component {
 		return (
 			<div>
 				<table>
-					<tr> 
+					<tr>
 						<div className="catfilter"> Filtres </div>
-          </tr>
+					</tr>
 					<tr className="tablefilter">
-					<div className="grfilter">Groupe</div>
+						<div className="grfilter">Nombres de personnes</div>
 						<ul className="ligrfilter">
-							<li>Famille</li>
-							<li>Groupe d'amis</li>
-							<li>Solo</li>
+							<li>1 à 5   </li>
+							<li>5 à 10</li>
+							<li>10 et +</li>
 						</ul>
-        	</tr>
+					</tr>
 					<tr className="tablefilter" >
-					<div className="prifilter">Prix</div>
+						<div className="prifilter">Budget</div>
 						<ul>
-							<div  className="lifilter">
-							<li>10 à 25 €</li>
-							<li>25 à 50 €</li>
-							<li>50 et + €</li>
+							<div className="lifilter">
+								<li>10 à 25 €</li>
+								<li>25 à 50 €</li>
+								<li>50 et + €</li>
 							</div>
 						</ul>
-          </tr>
+					</tr>
 					<tr className="tablefilter">
-					<div className="whfilter">Où</div>
-					<ul className="liwhfilter">
-							<li>Ici</li>
-							<li>La bas</li>
-							<li>Vers ici</li>
-							<li>Vers la bas</li>
-					</ul>
-          </tr>
+						<div className="whfilter">Où</div>
+						<ul className="liwhfilter">
+							<li>Monparnasse</li>
+							<li>Champs-Elysées</li>
+							<li>Portes de Versailles</li>
+							<li>Place d'Italie</li>
+						</ul>
+					</tr>
 				</table>
 			</div>
 		);

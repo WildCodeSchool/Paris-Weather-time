@@ -28,10 +28,9 @@
 .App
 {
     text-align: center;
-    background-color: black;
-    
-    
+    background-color: black;    
 }
+
 .WeatherAPI{
     padding-top: 80px;
     padding-left: 2%;

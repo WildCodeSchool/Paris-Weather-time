@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .modalClose{
     display:none;
 }
@@ -9,6 +10,10 @@ width: 30px;
 
 .modalOpen{
     background: rgb(46, 125, 156);
+=======
+/* .modal-wrapper {
+    background: #d0cccc;
+>>>>>>> cff1cd579efbfd79437204a3a0cf9885d070f98d
     border: 1px solid #d0cccc;
     width: ausearchBato;
     box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
@@ -124,6 +129,7 @@ height: 20px;
 }
 
 
+<<<<<<< HEAD
 .firstName, .lastName, .email{
     width: 170px;
     padding: 7px;
@@ -133,3 +139,9 @@ height: 20px;
  textarea{
      border-radius: 5px;
  }
+=======
+
+.lastName{
+    width: 140px;
+} */
+>>>>>>> cff1cd579efbfd79437204a3a0cf9885d070f98d

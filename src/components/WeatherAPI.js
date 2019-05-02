@@ -5,7 +5,7 @@ import "./Form.css"
 import Slider from "react-slick"
 import ActivityCards from "./ActivityCards"
 import Activity from "./Activity.json"
-
+import { Link } from 'react-router-dom'
 class WeatherAPI extends React.Component {
   state = {
     city: '',
@@ -74,7 +74,7 @@ class WeatherAPI extends React.Component {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2,
+            initialSlide: 0,
             infinite: true
           }
         },
@@ -93,20 +93,24 @@ class WeatherAPI extends React.Component {
     }
 
     const settings = {
-      dots: true,
+      dots: false,
       infinite: false,
       speed: 800,
       slidesToShow: 1,
       slidesToScroll: 1
+
+
     };
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)
     } else if (this.state.weatherData.list[0].weather[0].main === "Rain") {
+
       return (
+
         <div>
           <div>
-            <Form getWeather={this.getWeather} city={this.state.city}/>
+            <Form getWeather={this.getWeather} city={this.state.city} />
           </div>
 
           <div>
@@ -121,19 +125,25 @@ class WeatherAPI extends React.Component {
                 ))}
             </Slider>
           </div>
-          <div>
-            <Slider {...param}>
-              {Activity.filter(data => data.type.toString().includes("indoor"))
-                .map((data, index) => <ActivityCards {...data} key={index} />)}
-            </Slider>
-          </div>
+          <Slider {...param}>
+            {Activity.filter(data => data.type.toString().includes("indoor"))
+              .map((data) => {
+                let url = `/activity/${data.id}`
+                return (
+                  <div key={data.id}>
+
+                    <Link to={url}> <ActivityCards {...data} /></Link>
+                  </div>
+                )
+              })}
+          </Slider>
         </div>
       )
     } else {
       return (
         <div>
           <div>
-            <Form getWeather={this.getWeather} city={this.state.city}/>
+            <Form getWeather={this.getWeather} city={this.state.city} />
           </div>
 
           <div>
@@ -148,11 +158,18 @@ class WeatherAPI extends React.Component {
                 ))}
             </Slider>
           </div>
-          <div>
-            <Slider {...param}>
-              {Activity.map((data, index) => <ActivityCards {...data} key={index} />)}
-            </Slider>
-          </div>
+          <Slider {...param}>
+            {Activity.map((data) => {
+              let url = `/activity/${data.id}`
+              return (
+                <div key={data.id}>
+                  <Link to={url}>
+                    <ActivityCards {...data} />
+                  </Link>
+                </div>
+              )
+            })}
+          </Slider>
         </div>
       )
     }

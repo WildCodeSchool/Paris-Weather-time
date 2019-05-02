@@ -6,7 +6,6 @@ import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
 import Contact from './components/Contact'
 import SarahModal from './components/SarahModal'
-// import Contact from './components/Contact'
 import NavBarButton from './components/NavBarButton';
 
 

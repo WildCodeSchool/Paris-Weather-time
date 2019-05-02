@@ -15,7 +15,7 @@
     vertical-align: middle;
 }
 
-input, button
+.inputAsma, button
 {
     color: #fff;
     font-family:Arial, Helvetica, sans-serif;
@@ -50,7 +50,7 @@ form
     height: 50px;
 }
 
-input[type="text"]
+.inputAsma[type="text"]
 {
     width: 90%;
     height: 50px;
@@ -59,11 +59,10 @@ input[type="text"]
     text-align: center;
 }
 
-input[type="text"]::placeholder
+.inputAsma[type="text"]::placeholder
 {
     color:white;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .buttonSearsh

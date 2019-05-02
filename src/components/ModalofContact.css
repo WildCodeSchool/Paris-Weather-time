@@ -4,13 +4,21 @@
 
 .iconContact{
 width: 30px;
+appearance: none;
+background-color: transparent;
+border: 1px solid black;
+border-radius: 3em;
+cursor: pointer;
+box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
 }
 
+.iconContact:hover{
+    box-shadow: 0 0 4px 0 #0ba3c9, 0 0 4px 3px#0ba3c9;
+}
 
 .modalOpen{
     background: rgb(46, 125, 156);
     border: 1px solid #d0cccc;
-    width: ausearchBato;
     box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
     transition: all .6s;
     border-radius: 05px;
@@ -65,12 +73,11 @@ h3 {
     background: rgb(46, 125, 156);
     padding-bottom: 0px;
     margin-bottom: 20px;
-   padding-left: 35px;
-padding-right: 35px;
-margin-top: 20px;
-padding-top: 0px;
-height: 20px;
-
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+    padding-top: 0px;
+    height: 20px;
     border-radius: 05px;
 }
 
@@ -130,6 +137,4 @@ height: 20px;
     margin: 10px;
     border-radius: 5px; 
 }
- textarea{
-     border-radius: 5px;
- }
+

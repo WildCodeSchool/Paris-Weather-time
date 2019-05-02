@@ -57,7 +57,8 @@ $white: #ffffff;
   justify-content: flex-end; 
   color: white;
 }
-
+ 
+/*-- Button filter --*/
 .applyfilter{
   cursor: pointer;
   width: 100%;
@@ -70,52 +71,45 @@ $white: #ffffff;
   font-size: 33px;
 }
 
-
+/*-- Position title filter --*/
 .catfilter{
   margin-top: 2em;
-  padding: -1%;
   top: -11vw;
   left: 7vw;
   position: relative;
   font-size: 25px;
-    z-index: 100;
-    text-shadow: .04em .04em 0 #9cb8b3;
+  z-index: 100;
+  text-shadow: .04em .04em 0 #9cb8b3;
 }
 
-.catfilter:after{
-    content: attr(data-shadow-text);
-    color: white;
-    text-shadow: none;
-    position: absolute;
-    left: .0875em;
-    top: .0875em;
-    z-index: -1;
-  }
-
+/*-- Position title price --*/
 .prifilter{
   padding: 0;
-  left: -132px;
+  left: -138px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
 }
 
+/*-- Position title group --*/
 .grfilter{
   padding: 0;
-  left: -120px;
+  left: -80px;
   position: relative;
   margin-top: -2em;
   margin-bottom: -1em;
 }
 
+/*-- Position title where --*/
 .whfilter{
   padding: 0;
-  left: -132px;
+  left: -153px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
 }
 
+/*-- Effect choice on click --*/
 .lifilter li{
   cursor: pointer;
   list-style: none;
@@ -132,6 +126,7 @@ $white: #ffffff;
   transition: all .25s ease-in;
 }
 
+/*-- Effect choice on click --*/
 .ligrfilter li{
   cursor: pointer;
   list-style: none;
@@ -152,6 +147,7 @@ $white: #ffffff;
   transition: all .25s ease-in;
 }
 
+/*-- Effect choice on click --*/
 .liwhfilter li{
   cursor: pointer;
   list-style: none;
@@ -174,4 +170,8 @@ $white: #ffffff;
 
 .ligrfilter, .lifilter, .liwhfilter, li:hover{
   background-position: 0 0;
+}
+
+table{
+  padding-left: 6%;
 }

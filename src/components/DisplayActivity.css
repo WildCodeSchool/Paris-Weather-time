@@ -20,9 +20,6 @@ height: 370px;
     line-height: 22px;
 }
 
-.lorem p {
-    
-}
 
 .price {
     font-size: 25px;
@@ -42,7 +39,4 @@ margin-bottom: 12%;
     border-radius: 15px;
    justify-content: center;
    margin-bottom: 6%;
-}
-.reserver h2 {
-    
 }

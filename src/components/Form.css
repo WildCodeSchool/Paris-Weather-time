@@ -116,6 +116,11 @@ button span:before, button span:after
     transition: 0.2s ease all;
 }
 
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 8 and older ;) */
+
 /* #s-cover:hover #s-circle
 {
     top: -3px;

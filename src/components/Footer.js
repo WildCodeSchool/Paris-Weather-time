@@ -7,7 +7,7 @@ class Footer extends React.Component {
         return (
             <div>
                <div className = "Footer-container-2">
-                   <div className="Copyright-bloc"><p>@2019 - TheWeatherTime</p></div>
+                  
                    <div className="Social-networks">
                        <img src="https://i.ibb.co/pxJ3WFf/icon-insta.png
 https://i.ibb.co/pxJ3WFf/icon-insta.png
@@ -21,7 +21,7 @@ https://i.ibb.co/YPN0xMC/icons8-facebook-35.png
                        <img src="https://i.ibb.co/jgkCLb3/icons8-secured-letter-35.png
 https://i.ibb.co/jgkCLb3/icons8-secured-letter-35.png
 " alt="icon contact"/>
-                   </div>
+                   </div> <div className="Copyright-bloc"><p>@2019 - TheWeatherTime</p></div>
 </div>
                 </div>
 

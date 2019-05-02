@@ -4,7 +4,8 @@ import Footer from './components/Footer';
 import Logo from "./components/Logo"
 import SimpleSlider from "./components/SimpleSlider"
 import WeatherAPI from './components/WeatherAPI';
-// import Contact from './components/Contact'
+import Contact from './components/Contact'
+import SarahModal from './components/SarahModal'
 import NavBarButton from './components/NavBarButton';
 
 
@@ -12,6 +13,7 @@ import './components/ModalofContact.css';
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
+import "./components/ModalAffichage.css";
 
 class App extends Component {
   state = {
@@ -22,15 +24,16 @@ class App extends Component {
         <header className="App-header">
           <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
           <NavBarButton />
+          <Contact />
         </header>
-        <div className="WeatherAPI"><WeatherAPI /></div>
-        <div className="footer"> <Footer /></div>
+        <body>
+          <div className="WeatherAPI"><WeatherAPI /></div>
+          <SarahModal />
+          <div className="footer"> <Footer /></div>
+        </body>
       </div>
     )
   }
 }
-
-
-
 
 export default App;

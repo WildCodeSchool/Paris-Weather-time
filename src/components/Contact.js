@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import ModalofContact from "./ModalofContact";
+import ModalofContact from './ModalofContact';
+import './ModalofContact.css';
+import iconeContact from "../images/iconeContact.png"
+
 
 class Contact extends Component{
 
@@ -7,30 +10,29 @@ constructor() {
     super();
 
     this.state = {
-        isShowing: false
+        isShow: false
     }
 }
-
-openModalHandler = () => {
+// fonction de l'ouverture de la modal
+openModal = () => {
     this.setState({
-        isShowing: true
+        isShow: true
     });
 }
-
-closeModalHandler = () => {
+// fonction de la fermeture de la modal
+closeModal = () => {
     this.setState({
-        isShowing: false
+        isShow: false
     });
 }
 
     render() {
         return (
-            <div className="btn-NavBar">
-                <button className="" onClick={this.state.isShowing ? this.closeModalHandler : this.openModalHandler}>CONTACT</button>
+            <div>
+                <button className="btncontact" onClick={this.state.isShow ? this.closeModal : this.openModal}><img src={iconeContact} className="iconContact" alt="logo"/></button>
                 <ModalofContact
-                    className="modal"
-                    show={this.state.isShowing}
-                    close={this.closeModalHandler}>
+                    showing={this.state.isShow}
+                    close={this.closeModal}>
                 </ModalofContact>
             </div>
         )

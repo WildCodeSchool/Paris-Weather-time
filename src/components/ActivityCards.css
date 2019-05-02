@@ -24,3 +24,34 @@
     color: white;
     font-weight: bold;
 }
+@media (min-width : 502px){
+    .card {
+        position: relative;
+    }
+    
+    .card img {
+        width: 50vw;
+        height: 50vh;   
+    }
+    
+    .card h2 {
+       z-index: 2;
+       left: 7vw;
+       top:37vh;
+       position: absolute; 
+       width: 44vw;
+       font-size: 20px;
+       color:white;
+    }
+    
+    .card p {
+        position: absolute;
+        left: 19vw;
+        top: -2vh;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
+}

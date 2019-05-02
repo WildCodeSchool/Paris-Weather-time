@@ -180,7 +180,7 @@ input, button
     background-color: transparent;
 }
 
-#cover
+ #cover
 {
     top: 2%;
     left: 0;
@@ -198,27 +198,29 @@ form
     height: 50px;
 }
 
-input[type="text"]
+ input[type="text"]
 {
     width: 105%;
     height: 50px;
     font-size: 35px;
     line-height: 1;
-}
+} 
 
-input[type="text"]::placeholder
+ input[type="text"]::placeholder
 {
     color: #04bdad;
 }
 
 .buttonSearsh
 {
+    border: none;
+    background: transparent;
     position: relative;
     display: block;
     width: 70px;
     height: 35px;
     cursor: pointer;
-}
+} 
 
 #s-circle
 {

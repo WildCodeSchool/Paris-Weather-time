@@ -2,35 +2,55 @@
 .App-header{
     position: relative;
     
-}   
-
-.logo1{
-    position: absolute;
-    left: 0vw;
-    top: -1vh;
-
 }
+/* sur les peties écrans  */
+@media screen and (max-width: 500px)  {
+.logo1{
+     position: absolute;
+        left:2vw;
+    
+    }
+
 .logoTitre{ 
     font-family: 'Gloria Hallelujah', cursive;
-   color:rgb(161, 208, 230);
+    color:rgb(161, 208, 230);
     position: absolute;
-    width: 28vw;
-    left: 15vw;
-    top: 2.7vh;
+    width:19vh;
+     bottom: 1vh;
+     left :6vh;
+  
 }
+
+    }
+/* pour les grandes écrans */
+@media screen and (min-width: 501px)and (max-width:2000px)  {
+
+.logo1{
+     position: absolute;
+        left:1vw;
+        top: 2vh;
+    }
+
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(161, 208, 230);
+    position: absolute;
+    width:20vh;
+     bottom: 1vh;
+     left:8vh ;
+}
+
+
+    }
 .cardactivity
 {
     display: flex;
     justify-content: space-around;
 }
 
-
 .App
 {
-    text-align: center;
     background-color: black;
-    
-    
 }
 
 
@@ -41,4 +61,9 @@
 }
 .footer{
     padding-top:20px; 
+}
+.WeatherAPI{
+    padding-top: 85px;
+    padding-left: 2%;
+  
 }

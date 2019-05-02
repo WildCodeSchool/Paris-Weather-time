@@ -3,16 +3,16 @@ $blue: #0ba3c9;
 $white: #ffffff;
 
 //-- Button NavBar Effect With Effect --//
-.btn-filter, .btn-2, .btn-3 {
+.btn-filter{
 	appearance: none;
   background-color: transparent;
   border: 2px solid $black;
   border-radius: 3em;
   cursor: pointer;
-  display: flex;
+  display: inline-flex;
   align-self: center;
-  margin: 10px;
-  margin-top: 6px;
+  // margin: 22vw;
+  // margin-top: 8px;
 	padding: 0.1em 0.1em;
 	font-weight: 900;
   font-size: 0.8rem;
@@ -25,7 +25,7 @@ $white: #ffffff;
 }
 
 //-- Button Border Color --//
-.btn-filter, .btn-2, .btn-3 {
+.btn-filter {
 	color: #fff;
 	box-shadow: 0 0 40px 40px $black inset, 0 0 0 0 $black;
 	transition: all 150ms ease-in-out;
@@ -38,14 +38,15 @@ $white: #ffffff;
 
 //-- Size Icon --//
 .icon {
-  width: 5vw;
+  width: 7vw;
+  height: 3vh;
 }
 
 //-- Position Button Filter --//
 .btn-filter {
   position: absolute;
-  top: 0;
-  left: 64vw;
+  top: 10px;
+  left: 76vw;
 }
 
 /*-- Container NavBar --*/
@@ -56,4 +57,122 @@ $white: #ffffff;
   justify-content: flex-end; 
   color: white;
 }
+ 
+/*-- Button filter --*/
+.applyfilter{
+  cursor: pointer;
+  width: 100%;
+  height: 11vh;
+  z-index: 2;
+  background-color: #00c6ff;
+  border: none;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 33px;
+}
 
+/*-- Position title filter --*/
+.catfilter{
+  margin-right: 3em;
+  padding: 8%;
+  top: -5vw;
+  left: 28vw;
+  position: relative;
+  font-size: 25px;
+  text-shadow: .04em .04em 0 #9cb8b3;
+}
+
+/*-- Position title price --*/
+.prifilter{
+  padding: 0;
+  left: -18px;
+  position: relative;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+/*-- Position title group --*/
+.grfilter{
+  padding: 0;
+  left: -18px;
+  position: relative;
+  margin-top: -2em;
+  margin-bottom: -1em;
+}
+
+/*-- Position title where --*/
+.whfilter{
+  padding: 0;
+  left: -18px;
+  position: relative;
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
+/*-- Effect choice on click --*/
+.lifilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 2px;
+  padding: 8px;
+  display: inline-block;
+  -webkit-justify-content: left;
+  justify-content: left;
+  border: solid #000;
+  background: grey;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #00c6ff 50%, #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+/*-- Effect choice on click --*/
+.ligrfilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 2px;
+  padding: 19px;
+  display: inline-block;
+  justify-content: left;
+  border-radius: 5%;
+  border :  solid #000;
+  background: grey;
+  background-image: linear-gradient(to left,
+  transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+/*-- Effect choice on click --*/
+.liwhfilter li{
+  cursor: pointer;
+  list-style: none;
+  margin: 5px;
+  padding: 4px;
+  display: flex;
+  justify-content: space-around;
+  border :  none;
+  background: grey;
+  background-size: 5px;
+  border: solid #000;
+  background-image: linear-gradient(to left,
+  transparent,
+  transparent 50%,
+  #00c6ff 50%,
+  #00c6ff);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in;
+}
+
+.ligrfilter, .lifilter, .liwhfilter, li:hover{
+  background-position: 0 0;
+}
+
+table{
+  padding-left: 6%;
+}

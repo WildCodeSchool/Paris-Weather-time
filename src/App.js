@@ -20,24 +20,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">   
+        <header className="App-header">
           <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
-          <NavBarButton/>
-           <Contact />
-   
-        </header>   
-        <body> 
-        <div className="WeatherAPI"><WeatherAPI /></div>
-        <div className="footer"> <Footer /></div>
+          <NavBarButton />
+          <Contact />
+        </header>
+        <body>
+          <div className="WeatherAPI"><WeatherAPI /></div>
+          <div className="footer"> <Footer /></div>
         </body>
-        </div>
-       
-       
+      </div>
     )
   }
 }
-
-
-
 
 export default App;

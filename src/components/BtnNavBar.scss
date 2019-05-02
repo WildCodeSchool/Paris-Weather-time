@@ -11,8 +11,8 @@ $white: #ffffff;
   cursor: pointer;
   display: inline-flex;
   align-self: center;
-  margin: 22vw;
-  margin-top: 8px;
+  // margin: 22vw;
+  // margin-top: 8px;
 	padding: 0.1em 0.1em;
 	font-weight: 900;
   font-size: 0.8rem;
@@ -45,8 +45,8 @@ $white: #ffffff;
 //-- Position Button Filter --//
 .btn-filter {
   position: absolute;
-  top: 0;
-  left: 64vw;
+  top: 10px;
+  left: 76vw;
 }
 
 /*-- Container NavBar --*/
@@ -62,7 +62,7 @@ $white: #ffffff;
 .applyfilter{
   cursor: pointer;
   width: 100%;
-  height: 14vh;
+  height: 11vh;
   z-index: 2;
   background-color: #00c6ff;
   border: none;
@@ -73,19 +73,19 @@ $white: #ffffff;
 
 /*-- Position title filter --*/
 .catfilter{
-  margin-top: 2em;
-  top: -11vw;
-  left: 7vw;
+  margin-right: 3em;
+  padding: 8%;
+  top: -5vw;
+  left: 28vw;
   position: relative;
   font-size: 25px;
-  z-index: 100;
   text-shadow: .04em .04em 0 #9cb8b3;
 }
 
 /*-- Position title price --*/
 .prifilter{
   padding: 0;
-  left: -138px;
+  left: -18px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -94,7 +94,7 @@ $white: #ffffff;
 /*-- Position title group --*/
 .grfilter{
   padding: 0;
-  left: -80px;
+  left: -18px;
   position: relative;
   margin-top: -2em;
   margin-bottom: -1em;
@@ -103,7 +103,7 @@ $white: #ffffff;
 /*-- Position title where --*/
 .whfilter{
   padding: 0;
-  left: -153px;
+  left: -18px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -114,7 +114,7 @@ $white: #ffffff;
   cursor: pointer;
   list-style: none;
   margin: 2px;
-  padding: 5px;
+  padding: 8px;
   display: inline-block;
   -webkit-justify-content: left;
   justify-content: left;
@@ -130,8 +130,8 @@ $white: #ffffff;
 .ligrfilter li{
   cursor: pointer;
   list-style: none;
-  margin: 8px;
-  padding: 5px;
+  margin: 2px;
+  padding: 19px;
   display: inline-block;
   justify-content: left;
   border-radius: 5%;

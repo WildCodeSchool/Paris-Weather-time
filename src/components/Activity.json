@@ -33,6 +33,14 @@
     },
     {
         "id": 5,
+        "name": "Bifle un cycliste",
+        "image": "https://scontent.cdninstagram.com/vp/6a7a2a8dc35cc0dc7273d199d1287127/5D2D430A/t51.2885-15/e35/c180.0.720.720a/s480x480/56164230_1012002805854613_3588143430303131819_n.jpg?_nc_ht=scontent-sea1-1.cdninstagram.com",
+        "price": "Gratuit",
+        "type": "outdoor",
+        "alt": "biflage de cycliste "
+    },
+    {
+        "id": 6,
         "name": "Exposition Starwar",
         "image": "https://fever.imgix.net/plan/photo/087525ea-5c49-11e9-8399-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "15$",
@@ -40,7 +48,7 @@
         "alt": "expo starwar"
     },
     {
-        "id": 6,
+        "id": 7,
         "name": "Chasse au tresor",
         "image": "https://fever.imgix.net/plan/photo/d80518a8-44b4-11e9-9e17-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "50$",
@@ -48,7 +56,7 @@
         "alt": "chasse au tresor"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Crazy boat",
         "image": "https://fever.imgix.net/plan/photo/21c28de2-c646-11e8-abdc-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "15$",
@@ -56,7 +64,7 @@
         "alt": "crazy boat"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Mondial de la biere",
         "image": "https://fever.imgix.net/plan/photo/a48ee004-5d2c-11e9-b555-064931504376.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "12$",
@@ -64,15 +72,15 @@
         "alt": "mondial de la biere"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "Cours de sabre laser",
-        "image": "https://fever.imgix.net/plan/photo/c765ac80-e65c-11e8-8539-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=720&h=720",
+        "image": "https://medias.spotern.com/spots/w640/60186-1532336916.jpg",
         "price": "30$",
         "type": "indoor",
         "alt": "cours de sabre laser"
     },
     {
-        "id": 10,
+        "id": 11,
         "name": "Cours de twerk",
         "image": "https://fever.imgix.net/plan/photo/5ce10cec-9ee5-11e8-92c0-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=720&h=720",
         "price": "15$",
@@ -80,7 +88,7 @@
         "alt": "twerk"
     },
     {
-        "id": 11,
+        "id": 12,
         "name": "Cours de boxe",
         "image": "https://fever.imgix.net/plan/photo/d9d3e058-e8c3-11e8-9368-067dfd978c4d?auto=compress&auto=format&fm=jpg&w=720&h=720",
         "price": "20$",
@@ -88,7 +96,7 @@
         "alt": "boxe"
     },
     {
-        "id": 12,
+        "id": 13,
         "name": "Cinema",
         "image": "https://www.challenges.fr/assets/img/2017/03/02/cover-r4x3w1000-58b7e0152c8b5-gaumont-pathe.jpg",
         "price": "15$",
@@ -96,7 +104,7 @@
         "alt": "salle de cinema"
     },
     {
-        "id": 13,
+        "id": 14,
         "name": "Course poursuite",
         "image": "http://iwallpapers.free.fr/upload/2015/07/28/20150728170049-ab99c2d8.png",
         "price": "Gratuit",
@@ -104,7 +112,7 @@
         "alt": "course poursuite en moto"
     },
     {
-        " id": 14,
+        " id": 15,
         "name": "Lancer de hache",
         "image": "https://fever.imgix.net/plan/photo/1f336caa-c9fc-11e7-800b-067dfd978c4d.png?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "30$",
@@ -112,7 +120,7 @@
         "alt": "hache sur une cible"
     },
     {
-        "id": 15,
+        "id": 16,
         "name": "Manifestation",
         "image": "https://img.aws.la-croix.com/2019/03/16/1201009205/debut-mouvement-David-Dufresne-recense-compte-twitter-faits-averes-violence-policieres_0_729_486.jpg",
         "price": "Gratuit",
@@ -120,43 +128,108 @@
         "alt": "manifestation"
     },
     {
-        "id": 16,
+        "id": 17,
         "name": "Soiree Stand Up",
         "image": "https://fever.imgix.net/plan/photo/b43e7544-369b-11e9-a278-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "10$",
-        "type": "rain",
+        "type": "indoor",
         "alt": "soirée de stand up"
     },
     {
-        " id": 17,
+        " id": 18,
+        "name": "Combat de sumo",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFuwgLDtoYdrQAGeitTDo0AtTIMxOw7_cBYpLI_az0U9IE2vhdA",
+        "price": "35$",
+        "type": "outdoor",
+        "alt": "combat de sumo"
+    },
+    {
+        "id": 19,
+        "name": "Course a pied",
+        "image": "https://contents.mediadecathlon.com/p1477444/640x0/1cr1/quel_est_votre_potentiel_en_course_a_pied_kalenji.jpg?k=91c8d3c1bac0f787af0aa83fe19551e7",
+        "price": "Gratuit",
+        "type": "outdoor",
+        "alt": "joggeur qui jog"
+    },
+    {
+        "id": 20,
+        "name": "Balle trap",
+        "image": "http://www.ball-trap-club-nanceien.com/wp-content/uploads/Nancy_accueil-300x201.jpg",
+        "price": "30$",
+        "type": "outdoor",
+        "alt": "mec qui tiens un fusil"
+    },
+    {
+        "id": 21,
+        "name": "Salle d'arcade",
+        "image": "https://s3-media2.fl.yelpcdn.com/bphoto/3DCxHrIONssMLr_XyI49uA/348s.jpg",
+        "price": "55$",
+        "type": "indoor",
+        "alt": "salle d'arcade la tete dans les nuages"
+    },
+    {
+        "id": 22,
+        "name": "SPA privatisé",
+        "image": "https://fever.imgix.net/plan/photo/80c18228-369c-11e9-a562-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "55$",
+        "type": "indoor",
+        "alt": "SPA"
+    },
+    {
+        "id": 23,
+        "name": "La ruée des Fadas",
+        "image": "https://fever.imgix.net/plan/photo/1486adde-5179-11e9-8252-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "40$",
+        "type": "outdoor",
+        "alt": "course"
+    },
+    {
+        "id": 24,
+        "name": "Apéro sur les toits",
+        "image": "https://fever.imgix.net/plan/photo/6dc87e90-c1a5-11e8-99b3-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "15$",
+        "type": "outdoor",
+        "alt": "apéro sur les toits"
+    },
+    {
+        "id": 25,
+        "name": "Soirée strip-tease",
+        "image": "http://www.striptease-france.fr/kris-Cylia-duo-ou-solo.jpg",
+        "price": "50$",
+        "type": "outdoor",
+        "alt": "strip-tease"
+    },
+    {
+        " id": 26,
+        "name": "Paintball",
+        "image": "https://i.ytimg.com/vi/br1bJUx8rLo/maxresdefault.jpg",
+        "price": "30$",
+        "type": "outdoor",
+        "alt": "paintball"
+    },
+    {
+        "id": 27,
+        "name": "Combat UFC",
+        "image": "https://cdn.vox-cdn.com/thumbor/0Z-LPzlKUgFveM_lZXgzFOae_lE=/0x0:1920x1280/1200x800/filters:focal(749x204:1055x510)/cdn.vox-cdn.com/uploads/chorus_image/image/60721763/140_Conor_McGregor_vs_Eddie_Alvarez.0.0.jpg",
+        "price": "50",
+        "type": "indoor",
+        "alt": "ufc"
+    },
+    {
+        "id": 28,
+        "name": "Paris by night bois de boulogne",
+        "image": "https://medias.liberation.fr/photo/1150746-veillee-pour-vanesa-campos-bois-de-boulogne.jpg?modified_at=1535367568&width=960",
+        "price": "30$",
+        "type": "outdoor",
+        "alt": "bois de boulogne"
+    },
+    {
+        " id": 29,
         "name": "Combat de sumo",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFuwgLDtoYdrQAGeitTDo0AtTIMxOw7_cBYpLI_az0U9IE2vhdA",
         "price": "35$",
         "type": "sun",
         "alt": "combat de sumo"
-    },
-    {
-        "id": 18,
-        "name": "Course a pied",
-        "image": "https://contents.mediadecathlon.com/p1477444/640x0/1cr1/quel_est_votre_potentiel_en_course_a_pied_kalenji.jpg?k=91c8d3c1bac0f787af0aa83fe19551e7",
-        "price": "Gratuit",
-        "type": "sun",
-        "alt": "joggeur qui jog"
-    },
-    {
-        "id": 19,
-        "name": "Balle trap",
-        "image": "http://www.ball-trap-club-nanceien.com/wp-content/uploads/Nancy_accueil-300x201.jpg",
-        "price": "30$",
-        "type": "sun",
-        "alt": "mec qui tiens un fusil"
-    },
-    {
-        "id": 20,
-        "name": "Salle d'arcade",
-        "image": "https://s3-media2.fl.yelpcdn.com/bphoto/3DCxHrIONssMLr_XyI49uA/348s.jpg",
-        "price": "55$",
-        "type": "rain",
-        "alt": "salle d'arcade la tete dans les nuages"
     }
 ]
+

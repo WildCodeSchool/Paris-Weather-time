@@ -20,12 +20,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <div className="l"><Logo /></div>
-        <NavBarButton/>
+          <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
+          <NavBarButton />
         </header>
         <div className="WeatherAPI"><WeatherAPI /></div>
-        <SimpleSlider />
-        <Footer />
+        <div className="footer"> <Footer /></div>
       </div>
     )
   }

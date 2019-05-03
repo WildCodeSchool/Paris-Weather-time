@@ -5,7 +5,7 @@ import "./BtnNavBar.scss"
 class FilterInModal extends React.Component {
 	render() {
 		return (
-			<div>
+			
 				<table>
 					<tr>
 						<div className="catfilter"> Filtres </div>
@@ -38,7 +38,7 @@ class FilterInModal extends React.Component {
 						</ul>
 					</tr>
 				</table>
-			</div>
+		
 		);
 	}
 }

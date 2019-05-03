@@ -6,7 +6,7 @@ import './EffectModalFilter.css';
 /*-- Effect Modal + text --*/
 const Modal = (props) => {
 	return (
-		<div>
+	
 			<div className="modal-wrapper"
 				style={{
 					transform: props.show ? 'translateY(0vh)' : 'translateY(-100vh)',
@@ -16,7 +16,7 @@ const Modal = (props) => {
 						{props.children}
 					</p>
 			</div>
-		</div>
+	
 	)
 }
 

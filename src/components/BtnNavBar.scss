@@ -73,19 +73,22 @@ $white: #ffffff;
 
 /*-- Position title filter --*/
 .catfilter{
-  margin-right: 3em;
+  margin-right: auto;
+  margin-left: auto;
   padding: 8%;
   top: -5vw;
-  left: 28vw;
+  left: 5vw;
   position: relative;
   font-size: 25px;
   text-shadow: .04em .04em 0 #9cb8b3;
+  
 }
 
 /*-- Position title price --*/
 .prifilter{
+  
   padding: 0;
-  left: -18px;
+  left: 5vw;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -94,7 +97,7 @@ $white: #ffffff;
 /*-- Position title group --*/
 .grfilter{
   padding: 0;
-  left: -18px;
+  left: 5vw;
   position: relative;
   margin-top: -2em;
   margin-bottom: -1em;
@@ -103,7 +106,7 @@ $white: #ffffff;
 /*-- Position title where --*/
 .whfilter{
   padding: 0;
-  left: -18px;
+  left: 5vw;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -124,6 +127,7 @@ $white: #ffffff;
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in;
+  line-height: 50px;
 }
 
 /*-- Effect choice on click --*/
@@ -145,6 +149,7 @@ $white: #ffffff;
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in;
+  line-height: 50px;
 }
 
 /*-- Effect choice on click --*/
@@ -346,6 +351,7 @@ $white: #ffffff;
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in;
+  line-height: 50px;
 }
 
 .ligrfilter, .lifilter, .liwhfilter, li:hover{

@@ -28,6 +28,7 @@ class App extends Component {
           <NavBarButton />
           <Contact />
         </header>
+
         <Switch >
           <Route exact path="/" component={Home}/>
           <Route exact path="/activity/:id" component={ActivityScreen}/>
@@ -37,6 +38,7 @@ class App extends Component {
         </div>
         </div>
       
+
     )
   }
 }

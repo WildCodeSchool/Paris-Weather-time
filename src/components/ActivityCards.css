@@ -3,17 +3,17 @@
 }
 
 .card img {
-    width: auto;
-    height: auto;
+    width: 45vw;
+    height: 22vh;
     
 }
 
 .card h2 {
    z-index: 2;
-   left: Ovw;
+   left: 1vw;
    top:16.5vh;
    position: absolute; 
-   width: 66vw;
+   width: 44vw;
    font-size: 15px;
    color:white;
 }
@@ -36,7 +36,7 @@
     }
     
     .card h2 {
-       z-index: 2;
+  
        left: 7vw;
        top:37vh;
        position: absolute; 

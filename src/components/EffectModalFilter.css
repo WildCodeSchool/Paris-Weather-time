@@ -11,7 +11,7 @@
     top: 5.8vh; left: 0;
 }
 
-.modal, p {
+.modal,.lulu, p {
     color: white;
     line-height: 50px;
 }

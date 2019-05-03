@@ -120,7 +120,7 @@ input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
 input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
 input:focus:-ms-input-placeholder { color:transparent; } /* IE 8 and older ;) */
 
-/* #s-cover:hover #s-circle
+#s-cover:hover #s-circle
 {
     top: -3px;
     width: 7vw;
@@ -304,4 +304,10 @@ button span:before, button span:after
     background-color: #fff;
 }
 
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 8 and older ;) */
+
 }
+

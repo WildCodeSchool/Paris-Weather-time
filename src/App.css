@@ -53,6 +53,15 @@
     background-color: black;
 }
 
+
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding-top:20px; 
+}
 .WeatherAPI{
     padding-top: 85px;
     padding-left: 2%;

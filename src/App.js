@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Footer from './components/Footer';
 import Logo from "./components/Logo"
 import SimpleSlider from "./components/SimpleSlider"
-import WeatherAPI from './components/WeatherAPI';
+
 import Contact from './components/Contact'
 import NavBarButton from './components/NavBarButton';
 
@@ -12,26 +12,38 @@ import './components/ModalofContact.css';
 import './App.css';
 import './components/BtnNavBar.scss';
 import './components/WeatherDiv';
+import {Route, Switch} from 'react-router-dom'
+import ActivityScreen from './screen/ActivityScreen';
+import Home from './screen/Home'
 
 
 class App extends Component {
-  state = {
-  }
+  
   render() {
     return (
+
       <div className="App">
         <header className="App-header">
-          <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
+        <div className="logo1"><Logo /><span className="logoTitre">Weather Time</span></div>
           <NavBarButton />
           <Contact />
         </header>
-     
-          <div className="WeatherAPI"><WeatherAPI /></div>
-          <div className="footer"> <Footer /></div>
 
-      </div>
+        <Switch >
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/activity/:id" component={ActivityScreen}/>
+        </Switch>
+        <div className="footer">
+          <Footer />
+        </div>
+        </div>
+      
+
     )
   }
 }
+
+
+
 
 export default App;

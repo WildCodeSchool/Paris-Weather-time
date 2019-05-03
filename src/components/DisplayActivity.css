@@ -74,9 +74,10 @@ margin-right: auto;
 
 .price {
     font-size: 25px;
-font-weight: 800;
-margin-top: 0;
-margin-bottom: 12%;
+font-weight: 900;
+margin-top: 12vh;
+color:orange;
+
 }
 
 .reserver {

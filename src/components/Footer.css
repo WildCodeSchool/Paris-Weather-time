@@ -33,6 +33,7 @@
  
  /*Footer Responsive petites écrans*/
  @media (max-width : 501px){
+  
 
   .Footer-container{
     background-color:#213D49;
@@ -41,17 +42,24 @@
   .Footer-container-2{
     background-color:#182D36;
    height: 16vh;
+  
 
   }
-  .Copyright-bloc {
-    color:rgb(77, 101, 112);
+  .Copyright-bloc p{
+    color:rgb(219, 219, 219);
     margin-left: auto;
     margin-right: auto;
+    font-size: 20px;
+  
+  
+
   }
   /*icon social networks*/
   .Social-networks{
     display: flex;
     justify-content: space-around;
+    
+
   }
   .Social-networks img{
     padding-left: 0vh;

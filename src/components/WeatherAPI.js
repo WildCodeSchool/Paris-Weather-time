@@ -2,6 +2,7 @@ import React from "react";
 import Form from "./Form";
 import WeatherDiv from "./WeatherDiv";
 import "./Form.css"
+import "./WeatherAPi.css"
 import Slider from "react-slick"
 import ActivityCards from "./ActivityCards"
 import Activity from "./Activity.json"
@@ -127,7 +128,8 @@ class WeatherAPI extends React.Component {
                 ))}
             </Slider>
           </div>
-          <Slider {...param}>
+
+          <Slider className="sliderActivity"{...param}>
             {Activity.filter(data => data.type.toString().includes("indoor"))
               .map((data) => {
                 let url = `/activity/${data.id}`
@@ -160,7 +162,7 @@ class WeatherAPI extends React.Component {
                 ))}
             </Slider>
           </div>
-          <Slider {...param}>
+          <Slider className="sliderActivity"{...param}>
             {Activity.map((data) => {
               let url = `/activity/${data.id}`
               return (

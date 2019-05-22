@@ -220,21 +220,21 @@ $white: #ffffff;
 
 //-- Size Icon --//
 .icon {
-  width: 5vw;
+  width: 3.8vw;
   height: 7vh;
 }
 
 //-- Position Button Filter --//
 .btn-filter {
   position: absolute;
-  top: 15px;
-  left: 83vw;
+  top: 29px;
+  left: 85vw;
 }
 
 /*-- Container NavBar --*/
 .App-header {
   background-color:#182D36;
-  min-height: 12vh;
+padding: 1.5vh;
   display: flex;
   justify-content: flex-end; 
   color: white;
@@ -256,9 +256,9 @@ $white: #ffffff;
 /*-- Position title filter --*/
 .catfilter{
   margin-right: 3em;
-  padding: 8%;
-  top: -5vw;
-  left: 28vw;
+  padding: 12%;
+  top: -2vw;
+  left: 4vw;
   position: relative;
   font-size: 25px;
   text-shadow: .04em .04em 0 #9cb8b3;
@@ -267,7 +267,7 @@ $white: #ffffff;
 /*-- Position title price --*/
 .prifilter{
   padding: 0;
-  left: -18px;
+  left: 18px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -276,7 +276,7 @@ $white: #ffffff;
 /*-- Position title group --*/
 .grfilter{
   padding: 0;
-  left: -18px;
+  left: 18px;
   position: relative;
   margin-top: -2em;
   margin-bottom: -1em;
@@ -285,7 +285,7 @@ $white: #ffffff;
 /*-- Position title where --*/
 .whfilter{
   padding: 0;
-  left: -18px;
+  left: 18px;
   position: relative;
   margin-top: -1em;
   margin-bottom: -1em;
@@ -295,8 +295,8 @@ $white: #ffffff;
 .lifilter li{
   cursor: pointer;
   list-style: none;
-  margin: 2px;
-  padding: 8px;
+  margin-left: 12px;
+  padding:18px;
   display: inline-block;
   -webkit-justify-content: left;
   justify-content: left;
@@ -312,8 +312,8 @@ $white: #ffffff;
 .ligrfilter li{
   cursor: pointer;
   list-style: none;
-  margin: 2px;
-  padding: 19px;
+  margin: 3px;
+  padding: 25px;
   display: inline-block;
   justify-content: left;
   border-radius: 5%;
@@ -357,7 +357,7 @@ $white: #ffffff;
 }
 
 table{
-  padding-left: 6%;
+  padding-left:35%;
 }
 
 

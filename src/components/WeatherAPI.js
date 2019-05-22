@@ -14,6 +14,8 @@ class WeatherAPI extends React.Component {
     lat: '',
     loading: true,
     lon: '',
+   erreur:'',
+    
     weatherData: []
   }
 
@@ -29,9 +31,14 @@ class WeatherAPI extends React.Component {
       const city = e.target.city.value;
       fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&lang=fr&units=metric&appid=e8fc88dd5f1edd7f7ff6a9a5be06bd83`)
         .then(res => res.json())
-        .then(res => this.setState({ weatherData: res, city: res.city.name }))
+        .then(res => this.setState({
+           weatherData: res,
+         city: res.city.name ,
+           erreur:'pfffff'}))
     }
+   
   }
+   
   //fonction qui permet d'obtenir la localisation
   getLocation = () => {
     //si l'utilisateur accepte d'être géolocalisé
@@ -104,11 +111,14 @@ class WeatherAPI extends React.Component {
 
 
     };
+           
+      
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)
-    } else if (this.state.weatherData.list[0].weather[0].main === "Rain") {
 
+    } else if (this.state.weatherData.list[0].weather[0].main === "Rain") {
+        
       return (
 
         <div>
@@ -147,7 +157,7 @@ class WeatherAPI extends React.Component {
       return (
         <div>
           <div>
-            <Form getWeather={this.getWeather} city={this.state.city} />
+            <Form getWeather={this.getWeather} city={this.state.city}  />
           </div>
 
           <div>
@@ -157,7 +167,7 @@ class WeatherAPI extends React.Component {
                 .filter(data => data.dt_txt.includes("12:00:00"))
                 .map((data, index) => (
 
-                  <WeatherDiv {...data} city={this.state.city} index={index} key={index} />
+                  <WeatherDiv {...data} city={this.state.city} erreur={this.state.erreur} index={index} key={index} />
 
                 ))}
             </Slider>

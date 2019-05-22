@@ -6,8 +6,6 @@ import SimpleSlider from "./components/SimpleSlider"
 
 import Contact from './components/Contact'
 import NavBarButton from './components/NavBarButton';
-
-
 import './components/ModalofContact.css';
 import './App.css';
 import './components/BtnNavBar.scss';

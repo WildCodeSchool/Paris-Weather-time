@@ -15,18 +15,19 @@
  }
  /* icon social networks*/
  .Social-networks img{
-   padding-top: 4vh;
+   padding-top: 2vh;
    padding-left: 34vh;
  ;
  }
  .Social-networks{
   display: flex;
-  justify-content: space-around;
+  padding-left: 54vh;
+ 
   
 }
 .Social-networks img{
   
-  padding-left: 0vh;
+  padding-left: 12vh;
   
 }
 

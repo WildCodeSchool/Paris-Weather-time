@@ -12,7 +12,8 @@ class DisplayActivity extends Component {
     getActivity = async () => {
         const id = this.props.id
         const result = await axios.get(
-            `https://remy-j.github.io/id/${id}.json`
+            `https://asmamoutaoukil.github.io/ActivityAPI/id/${id}.json`
+           // https://remy-j.github.io/id/${id}.json
         )
         this.setState({ activity: result.data })
 

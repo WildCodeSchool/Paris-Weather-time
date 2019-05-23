@@ -4,15 +4,15 @@
         "name": "Sortie en vélo",
         "image": "https://i.ibb.co/ZzBd37Z/yoga.jpg",
         "price": "Gratuit",
-        "type": "outdoor",
+        "type": "beau",
         "alt": "l"
     },
     {
         "id": 2,
         "name": "Sortie au Bar",
         "image": "https://i.ibb.co/gVF8j8Y/bar.jpg",
-        "price": "150$",
-        "type": "indoor",
+        "price": "20$",
+        "type": "moyen",
         "alt": "l"
     },
     {
@@ -20,145 +20,98 @@
         "name": "Sortie au cinéma",
         "image": "https://i.ibb.co/BNWgkrS/cinema.jpg",
         "price": "85$",
-        "type": "indoor",
+        "type": "moyen",
         "alt": "c"
     },
     {
         "id": 4,
         "name": "Sortie au Stade de foot",
         "image": "https://i.ibb.co/r5ZXm1h/stade.jpg",
-        "price": "30$",
-        "type": "outdoor",
+        "price": "50$",
+        "type": "beau",
         "alt": "rooftop"
     },
     {
         "id": 5,
         "name": "Sortie découverte",
         "image": "https://i.ibb.co/P4RPNqy/aquariumdeparis.jpg",
-        "price": "Gratuit",
-        "type": "outdoor",
+        "price": "15$",
+        "type": "moyen",
         "alt": "biflage de cycliste "
     },
     {
         "id": 6,
-        "name": "Exposition Starwar",
-        "image": "https://fever.imgix.net/plan/photo/087525ea-5c49-11e9-8399-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
-        "price": "15$",
-        "type": "indoor",
-        "alt": "expo starwar"
+        "name": "Sortie au parc",
+        "image": "https://i.ibb.co/y5kdS3W/parc.jpg",
+        "price": "gratuit",
+        "type": "beau",
+        "alt": "l"
     },
     {
         "id": 7,
-        "name": "Chasse au tresor",
-        "image": "https://fever.imgix.net/plan/photo/d80518a8-44b4-11e9-9e17-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "name": "Sortie au Restaurant",
+        "image": "https://i.ibb.co/ZB8YBJQ/restaurant.jpg",
         "price": "50$",
-        "type": "outdoor",
-        "alt": "chasse au tresor"
+        "type": "moyen",
+        "alt": "l"
     },
     {
         "id": 8,
-        "name": "Crazy boat",
-        "image": "https://fever.imgix.net/plan/photo/21c28de2-c646-11e8-abdc-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "name": "Vister des monuments",
+        "image": "https://i.ibb.co/BzCF53J/monument.jpg",
         "price": "15$",
-        "type": "outdoor",
-        "alt": "crazy boat"
+        "type": "beau",
+        "alt": "l"
     },
     {
         "id": 9,
-        "name": "Mondial de la biere",
-        "image": "https://fever.imgix.net/plan/photo/a48ee004-5d2c-11e9-b555-064931504376.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
-        "price": "12$",
-        "type": "indoor",
-        "alt": "mondial de la biere"
+        "name": "Regarder un film sur netflix",
+        "image": "https://i.ibb.co/44Vf1M9/netflix.jpg",
+        "price": "Sur abonnement",
+        "type": "moyen",
+        "alt": "netflex"
     },
     {
         "id": 10,
-        "name": "Cours de sabre laser",
-        "image": "https://medias.spotern.com/spots/w640/60186-1532336916.jpg",
-        "price": "30$",
-        "type": "indoor",
+        "name": "Sortie à la piscine",
+        "image": "https://i.ibb.co/bgdd8Pv/piscine.jpg",
+        "price": "15$",
+        "type": "beau",
         "alt": "cours de sabre laser"
     },
     {
         "id": 11,
-        "name": "Cours de twerk",
-        "image": "https://fever.imgix.net/plan/photo/5ce10cec-9ee5-11e8-92c0-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=720&h=720",
+        "name": "Sortie à la patinoire",
+        "image": "https://i.ibb.co/2sJcmJ3/patinoire.jpg",
         "price": "15$",
-        "type": "indoor",
-        "alt": "twerk"
+        "type": "moyen",
+        "alt": "S"
     },
     {
         "id": 12,
-        "name": "Cours de boxe",
-        "image": "https://fever.imgix.net/plan/photo/d9d3e058-e8c3-11e8-9368-067dfd978c4d?auto=compress&auto=format&fm=jpg&w=720&h=720",
-        "price": "20$",
-        "type": "indoor",
-        "alt": "boxe"
+        "name": "Journée à disneyland",
+        "image": "https://i.ibb.co/kxm59t8/disneyland.jpg",
+        "price": "25$",
+        "type": "beau",
+        "alt": "disneyland"
     },
     {
         "id": 13,
         "name": "Cinema",
         "image": "https://www.challenges.fr/assets/img/2017/03/02/cover-r4x3w1000-58b7e0152c8b5-gaumont-pathe.jpg",
         "price": "15$",
-        "type": "indoor",
+        "type": "moyen",
         "alt": "salle de cinema"
     },
     {
         "id": 14,
         "name": "Course poursuite",
         "image": "http://iwallpapers.free.fr/upload/2015/07/28/20150728170049-ab99c2d8.png",
-        "price": "Gratuit",
-        "type": "outdoor",
+        "price": "30$",
+        "type": "moyen",
         "alt": "course poursuite en moto"
-    },
-    {
-        " id": 15,
-        "name": "Lancer de hache",
-        "image": "https://fever.imgix.net/plan/photo/1f336caa-c9fc-11e7-800b-067dfd978c4d.png?auto=compress&auto=format&fm=jpg&w=220&h=220",
-        "price": "30$",
-        "type": "outdoor",
-        "alt": "hache sur une cible"
-    },
-    {
-        "id": 16,
-        "name": "Manifestation",
-        "image": "https://img.aws.la-croix.com/2019/03/16/1201009205/debut-mouvement-David-Dufresne-recense-compte-twitter-faits-averes-violence-policieres_0_729_486.jpg",
-        "price": "Gratuit",
-        "type": "outdoor",
-        "alt": "manifestation"
-    },
-    {
-        "id": 17,
-        "name": "Soiree Stand Up",
-        "image": "https://fever.imgix.net/plan/photo/b43e7544-369b-11e9-a278-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
-        "price": "10$",
-        "type": "indoor",
-        "alt": "soirée de stand up"
-    },
-    {
-        " id": 18,
-        "name": "Combat de sumo",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFuwgLDtoYdrQAGeitTDo0AtTIMxOw7_cBYpLI_az0U9IE2vhdA",
-        "price": "35$",
-        "type": "outdoor",
-        "alt": "combat de sumo"
-    },
-    {
-        "id": 19,
-        "name": "Course a pied",
-        "image": "https://contents.mediadecathlon.com/p1477444/640x0/1cr1/quel_est_votre_potentiel_en_course_a_pied_kalenji.jpg?k=91c8d3c1bac0f787af0aa83fe19551e7",
-        "price": "Gratuit",
-        "type": "outdoor",
-        "alt": "joggeur qui jog"
-    },
-    {
-        "id": 20,
-        "name": "Balle trap",
-        "image": "http://www.ball-trap-club-nanceien.com/wp-content/uploads/Nancy_accueil-300x201.jpg",
-        "price": "30$",
-        "type": "outdoor",
-        "alt": "mec qui tiens un fusil"
     }
-    
+ 
+
 ]
 

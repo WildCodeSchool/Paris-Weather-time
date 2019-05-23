@@ -100,10 +100,10 @@ class SimpleSlider extends Component {
     //le if/else, permet de s'assurer que le render ne s'active que quand l'API a bien chargé ses données dans le state et donc transformé loading en false
     if (this.state.loading) {
       return (<div>loading</div>)
-    } else if (this.state.weatherData.list[0].weather[0].main === "Rain") {
+    } else if (this.state.weatherData.list[0].weather[0].main === "beau") {
         return (
           <Slider {...settings}>
-            {Activity.filter(data => data.type.toString().includes("indoor"))
+            {Activity.filter(data => data.type.toString().includes("moyen"))
               .map((data, index) => <ActivityCards {...data} key={index} />)}
           </Slider>
         )

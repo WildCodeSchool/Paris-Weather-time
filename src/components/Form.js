@@ -4,12 +4,12 @@ import "./Form.css"
 const Form = props => (
 <div  className="A" id="cover">
   <form onSubmit={props.getWeather} >
-    <div className="tb">
-      <div className="td"><input type="text" name="city" placeholder="Search City..."/></div>
-      <div className="td" id="s-cover">
-        <button type="submit">
+    <div className="global">
+   <div className="searchBar"> <input className="inputAsma" type="text" name="city" placeholder={props.city}/></div>
+      <div className="searchBar" id="s-cover">
+        <button className="buttonSearsh" type="submit">
           <div id="s-circle"></div>
-          <span></span>
+          <span className="litlebar"></span>
         </button>
       </div>
     </div>

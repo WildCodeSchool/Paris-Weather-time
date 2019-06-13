@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "name": "Crache sur un clochard",
-        "image": "http://2.bp.blogspot.com/_De2pz0Z4-pU/Rrcm9IhoNKI/AAAAAAAAAOY/klZmESzn7iE/s320/FuckThis_clochard.jpg",
-        "price": "Gratuit",
+        "name": "jeuxdi by longschamp",
+        "image": "https://fever.imgix.net/plan/photo/21c344aa-5d0e-11e9-b555-064931504376.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "Free",
         "type": "outdoor",
-        "alt": "clodo"
+        "alt": "jeuxdi by longschamp"
     },
     {
         "id": 2,
         "name": "Simulateur de vol",
-        "image": "https://stopmensonges.com/wp-content/uploads/2013/11/11septembre.jpg",
+        "image": "https://www.sortiraparis.com/images/55/81943/398938-aeroclub-simulation-le-simulateur-de-vol-pour-s-initier-au-pilotage-4.jpg",
         "price": "150$",
         "type": "indoor",
         "alt": "simulateur de vol"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "name": "Cours de sabre laser",
-        "image": "https://fever.imgix.net/plan/photo/c765ac80-e65c-11e8-8539-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=720&h=720",
+        "image": "https://medias.spotern.com/spots/w640/60186-1532336916.jpg",
         "price": "30$",
         "type": "indoor",
         "alt": "cours de sabre laser"
@@ -96,15 +96,7 @@
         "alt": "salle de cinema"
     },
     {
-        "id": 13,
-        "name": "Course poursuite",
-        "image": "http://iwallpapers.free.fr/upload/2015/07/28/20150728170049-ab99c2d8.png",
-        "price": "Gratuit",
-        "type": "outdoor",
-        "alt": "course poursuite en moto"
-    },
-    {
-        " id": 14,
+        " id": 13,
         "name": "Lancer de hache",
         "image": "https://fever.imgix.net/plan/photo/1f336caa-c9fc-11e7-800b-067dfd978c4d.png?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "30$",
@@ -112,51 +104,92 @@
         "alt": "hache sur une cible"
     },
     {
-        "id": 15,
+        "id": 14,
         "name": "Manifestation",
         "image": "https://img.aws.la-croix.com/2019/03/16/1201009205/debut-mouvement-David-Dufresne-recense-compte-twitter-faits-averes-violence-policieres_0_729_486.jpg",
-        "price": "Gratuit",
+        "price": "Free",
         "type": "outdoor",
         "alt": "manifestation"
     },
     {
-        "id": 16,
+        "id": 15,
         "name": "Soiree Stand Up",
         "image": "https://fever.imgix.net/plan/photo/b43e7544-369b-11e9-a278-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
         "price": "10$",
-        "type": "rain",
+        "type": "indoor",
         "alt": "soirée de stand up"
     },
     {
-        " id": 17,
+        " id": 16,
         "name": "Combat de sumo",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtFuwgLDtoYdrQAGeitTDo0AtTIMxOw7_cBYpLI_az0U9IE2vhdA",
         "price": "35$",
-        "type": "sun",
+        "type": "outdoor",
         "alt": "combat de sumo"
     },
     {
-        "id": 18,
+        "id": 17,
         "name": "Course a pied",
         "image": "https://contents.mediadecathlon.com/p1477444/640x0/1cr1/quel_est_votre_potentiel_en_course_a_pied_kalenji.jpg?k=91c8d3c1bac0f787af0aa83fe19551e7",
-        "price": "Gratuit",
-        "type": "sun",
+        "price": "Free",
+        "type": "outdoor",
         "alt": "joggeur qui jog"
     },
     {
-        "id": 19,
+        "id": 18,
         "name": "Balle trap",
         "image": "http://www.ball-trap-club-nanceien.com/wp-content/uploads/Nancy_accueil-300x201.jpg",
         "price": "30$",
-        "type": "sun",
+        "type": "outdoor",
         "alt": "mec qui tiens un fusil"
     },
     {
-        "id": 20,
+        "id": 19,
         "name": "Salle d'arcade",
         "image": "https://s3-media2.fl.yelpcdn.com/bphoto/3DCxHrIONssMLr_XyI49uA/348s.jpg",
         "price": "55$",
-        "type": "rain",
+        "type": "indoor",
         "alt": "salle d'arcade la tete dans les nuages"
+    },
+    {
+        "id": 20,
+        "name": "SPA privatisé",
+        "image": "https://fever.imgix.net/plan/photo/80c18228-369c-11e9-a562-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "55$",
+        "type": "indoor",
+        "alt": "SPA"
+    },
+    {
+        "id": 21,
+        "name": "La ruée des Fadas",
+        "image": "https://fever.imgix.net/plan/photo/1486adde-5179-11e9-8252-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "40$",
+        "type": "outdoor",
+        "alt": "course"
+    },
+    {
+        "id": 22,
+        "name": "Apéro sur les toits",
+        "image": "https://fever.imgix.net/plan/photo/6dc87e90-c1a5-11e8-99b3-067dfd978c4d.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
+        "price": "15$",
+        "type": "outdoor",
+        "alt": "apéro sur les toits"
+    },
+    {
+        " id": 23,
+        "name": "Paintball",
+        "image": "https://i.ytimg.com/vi/br1bJUx8rLo/maxresdefault.jpg",
+        "price": "30$",
+        "type": "outdoor",
+        "alt": "paintball"
+    },
+    {
+        "id": 24,
+        "name": "Combat UFC",
+        "image": "https://cdn.vox-cdn.com/thumbor/0Z-LPzlKUgFveM_lZXgzFOae_lE=/0x0:1920x1280/1200x800/filters:focal(749x204:1055x510)/cdn.vox-cdn.com/uploads/chorus_image/image/60721763/140_Conor_McGregor_vs_Eddie_Alvarez.0.0.jpg",
+        "price": "50",
+        "type": "indoor",
+        "alt": "ufc"
     }
 ]
+

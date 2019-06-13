@@ -1,0 +1,290 @@
+.modalClose{
+    display:none;
+}
+
+.iconContact{
+width: 30px;
+appearance: none;
+background-color: transparent;
+border: 1px solid black;
+border-radius: 3em;
+cursor: pointer;
+box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
+margin-top: 10px;
+margin-right: 11px;
+}
+
+.iconContact:hover{
+    box-shadow: 0 0 4px 0 #0ba3c9, 0 0 4px 3px#0ba3c9;
+}
+
+.modalOpen{
+    background: rgb(46, 125, 156);
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
+    transition: all .6s;
+    border-radius: 05px;
+    z-index: 3;
+    position: absolute;
+    left: 0vh;
+    top: 18vw;    
+}
+
+.modal-header{
+    background: rgb(46, 125, 156);
+}
+
+.modal-header, .close-modal-btn {
+    
+    width: auto;
+    height: 40px;
+    border-radius: 05px;
+    color: white;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.modalarea{
+    position: relative;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10;
+    
+}
+
+
+h3 {
+    display: block;
+    padding: 3;
+    margin-top: 12;
+}
+
+.modal-body {
+    text-align: center;
+    width: auto;
+}
+
+.modal-footer {
+    background: rgb(46, 125, 156);
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 20px;
+    padding-top: 0px;
+    height: 20px;
+    border-radius: 05px;
+}
+
+.close-modal-btn {
+    margin-top: 0;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    border-radius: 05px;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+.btn-cancel {
+    height: 30px;
+    background-color: #b71c1c;
+    float: left;
+    color: white;
+    border-radius: 4px;
+    width: auto;
+    margin: auto;
+    margin: 10;
+    left: -7%;
+    top: -37%;
+}
+
+.btn-cancel:hover {
+    background-color:#811313;
+}
+
+.btn-continue {
+    background-color: #1b5e20;
+    float: right;
+    border-radius: 4px;
+    color: white;
+    width: auto;
+    height: 30px;
+    left: 4%;
+    top: -29%;
+}
+
+.btn-continue:hover {
+    background-color:#113b13;
+}
+
+.btncontact{
+    width: 58px;
+    left: 316.067px;
+}
+
+
+.firstName, .lastName, .email{
+    width: 170px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px; 
+}
+/* ************************************************** */
+/************ responsive grandes écrans ****************/
+@media (min-width : 502px){
+
+    .modalClose{
+        display:none;
+    }
+    
+    .iconContact{
+    width: 66px;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3em;
+    cursor: pointer;
+    box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin-top: 10px;
+    margin-left:-9vh;
+    }
+    
+    .iconContact:hover{
+        box-shadow: 0 0 4px 0 #0ba3c9, 0 0 4px 3px#0ba3c9;
+    }
+    
+    .modalOpen{
+        background: rgb(46, 125, 156);
+        border: 1px solid #d0cccc;
+        box-shadow: 0 5px 8px 0 #00000033, 0 7px 20px 0 rgba(0,0,0,0.17);
+        transition: all .6s;
+        border-radius: 05px;
+        z-index: 3;
+        position: absolute;
+        left: 67vh;
+        top: 7vw;    
+    }
+    
+    .modal-header{
+        background: rgb(46, 125, 156);
+    }
+    
+    .modal-header, .close-modal-btn {
+        
+        width: auto;
+
+        height: 40px;
+        border-radius: 05px;
+        color: white;
+        margin-left: 1vh;
+        padding: 0;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .modalarea{
+        position: relative;
+    }
+    
+    .modal-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10;
+        
+    }
+    
+    
+    h3 {
+        display: block;
+        padding: 3;
+        margin-top: 12;
+    }
+    
+    .modal-body {
+        text-align: center;
+        width: auto;
+    }
+    
+    .modal-footer {
+        background: rgb(46, 125, 156);
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-top: 20px;
+        padding-top: 0px;
+        height: 20px;
+        border-radius: 05px;
+    }
+    
+    .close-modal-btn {
+        margin-top: 0;
+        cursor: pointer;
+        float: right;
+        font-size: 30px;
+        border-radius: 05px;
+    }
+    
+    .close-modal-btn:hover {
+        color: black;
+    }
+    
+    .btn-cancel {
+        height: 30px;
+        background-color: #b71c1c;
+        float: left;
+        color: white;
+        border-radius: 4px;
+        width: auto;
+        margin: auto;
+        margin: 10;
+        left: -7%;
+        top: -37%;
+    }
+    
+    .btn-cancel:hover {
+        background-color:#811313;
+    }
+    
+    .btn-continue {
+        background-color: #1b5e20;
+        float: right;
+        border-radius: 4px;
+        color: white;
+        width: auto;
+        height: 30px;
+        left: 4%;
+        top: -29%;
+    }
+    
+    .btn-continue:hover {
+        background-color:#113b13;
+    }
+    
+    .btncontact{
+        width: 58px;
+        left: 316.067px;
+    }
+    
+    
+    .firstName, .lastName, .email{
+        width: 17px;
+        padding: 7px;
+        margin: 10px;
+        border-radius: 5px; 
+        border: #113b13
+    }
+    
+}

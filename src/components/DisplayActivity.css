@@ -1,0 +1,95 @@
+*{
+    text-align: center;
+}
+
+.nom {
+    font-size: 60px;
+    }
+
+    .act {
+    width: 600px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    .lorem {
+        display: block;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        
+       
+    }
+    .lorem, p{
+        line-height: 50px;
+        font-size: 25px
+    }
+    
+    
+    .price {
+        font-size: 60px;
+    font-weight: 800;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    }
+    
+    .reserver {
+        display: flex;
+        width: 200px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(14, 145, 233);
+        color:white;
+        border-radius: 15px;
+       justify-content: center;
+       margin-bottom: 6%;
+    }
+
+@media (max-width : 768px){
+.nom {
+font-size: 30px;
+}
+
+.act {
+width: 300px;
+height: 370px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.lorem {
+    display: block;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+   
+}
+.lorem, p{
+    line-height: 22px;
+}
+
+
+.price {
+    font-size: 25px;
+font-weight: 900;
+margin-top: 12vh;
+color:orange;
+
+}
+
+.reserver {
+    display: flex;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(14, 145, 233);
+    color:white;
+    border-radius: 15px;
+   justify-content: center;
+   margin-bottom: 6%;
+}
+}

@@ -1,21 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 .App-header{
-    position: relative; 
- 
-}   
-.l{
+    position: relative;
+    
+}
+/* sur les peties écrans  */
+@media screen and (max-width: 500px)  {
+.logo1{
+     position: absolute;
+        left:2vw;
+    
+    }
 
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(161, 208, 230);
     position: absolute;
-    left: 0vw;
-    top: -10vh;
-} 
+    width:19vh;
+     bottom: 1vh;
+     left :6vh;
+  
+}
+
+    }
+/* pour les grandes écrans */
+@media screen and (min-width: 501px)and (max-width:2000px)  {
+
+.logo1{
+     position: absolute;
+        left:1vw;
+        top: 2vh;
+    }
+
+.logoTitre{ 
+    font-family: 'Gloria Hallelujah', cursive;
+    color:rgb(161, 208, 230);
+    position: absolute;
+    width:20vh;
+     bottom: 1vh;
+     left:8vh ;
+}
+
+
+    }
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
+}
 
 .App
 {
-    text-align: center;
-    
+    background-color: black;
+}
+
+
+.cardactivity
+{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    padding-top:20px; 
 }
 .WeatherAPI{
-    padding-top: 80px;
-    padding-left: 20%;
+    padding-top: 85px;
+    padding-left: 2%;
   
 }

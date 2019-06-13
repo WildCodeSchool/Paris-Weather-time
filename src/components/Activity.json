@@ -3,7 +3,7 @@
         "id": 1,
         "name": "jeuxdi by longschamp",
         "image": "https://fever.imgix.net/plan/photo/21c344aa-5d0e-11e9-b555-064931504376.jpg?auto=compress&auto=format&fm=jpg&w=220&h=220",
-        "price": "Gratuit",
+        "price": "Free",
         "type": "outdoor",
         "alt": "jeuxdi by longschamp"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "name": "Manifestation",
         "image": "https://img.aws.la-croix.com/2019/03/16/1201009205/debut-mouvement-David-Dufresne-recense-compte-twitter-faits-averes-violence-policieres_0_729_486.jpg",
-        "price": "Gratuit",
+        "price": "Free",
         "type": "outdoor",
         "alt": "manifestation"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "name": "Course a pied",
         "image": "https://contents.mediadecathlon.com/p1477444/640x0/1cr1/quel_est_votre_potentiel_en_course_a_pied_kalenji.jpg?k=91c8d3c1bac0f787af0aa83fe19551e7",
-        "price": "Gratuit",
+        "price": "Free",
         "type": "outdoor",
         "alt": "joggeur qui jog"
     },

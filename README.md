@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This projet is a simulation of mobile application.
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -88,14 +88,6 @@
         "alt": "boxe"
     },
     {
-        "id": 12,
-        "name": "Cinema",
-        "image": "https://www.challenges.fr/assets/img/2017/03/02/cover-r4x3w1000-58b7e0152c8b5-gaumont-pathe.jpg",
-        "price": "15$",
-        "type": "indoor",
-        "alt": "salle de cinema"
-    },
-    {
         " id": 13,
         "name": "Lancer de hache",
         "image": "https://fever.imgix.net/plan/photo/1f336caa-c9fc-11e7-800b-067dfd978c4d.png?auto=compress&auto=format&fm=jpg&w=220&h=220",
